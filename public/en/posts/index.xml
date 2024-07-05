@@ -1,0 +1,37 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>Posts on behoovah.net</title>
+		<link>//localhost:1313/en/posts/</link>
+		<description>Recent content in Posts on behoovah.net</description>
+		<generator>Hugo -- gohugo.io</generator>
+		<language>en-us</language>
+		<copyright>behoovah</copyright>
+		<lastBuildDate>Fri, 05 Jul 2024 12:51:22 -0700</lastBuildDate>
+		<atom:link href="//localhost:1313/en/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Test</title>
+			<link>//localhost:1313/en/posts/test/</link>
+			<pubDate>Fri, 05 Jul 2024 12:51:22 -0700</pubDate>
+			
+			<guid>//localhost:1313/en/posts/test/</guid>
+			<description><![CDATA[%!s(<nil>)]]></description>
+			<content type="html"><![CDATA[<h3 id="this-is-a-test-post">This is a Test Post</h3>
+<p>hello world. This is the first hugo test post.
+it is in the content/post/ directory.</p>
+<p>here is a comparison of the headers:</p>
+<h1 id="header-1">Header 1</h1>
+<h2 id="header-2">Header 2</h2>
+<h3 id="header-3">Header 3</h3>
+<h4 id="header-4">Header 4</h4>
+<h5 id="header-5">Header 5</h5>
+<h6 id="header-6">Header 6</h6>
+<p>here is the test from the hugo quickstart doc:</p>
+<h2 id="introduction">Introduction</h2>
+<p>This is <strong>bold</strong> text, and this is <em>emphasized</em> text.</p>
+<p>Visit the <a href="https://gohugo.io">Hugo</a> website!</p>
+]]></content>
+		</item>
+		
+	</channel>
+</rss>

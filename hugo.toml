@@ -1,0 +1,14 @@
+baseURL = "127.0.0.1"
+theme = "PaperMod"
+
+# Enable to get proper Mathjax support
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+
+
