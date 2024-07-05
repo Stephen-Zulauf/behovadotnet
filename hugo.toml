@@ -1,4 +1,4 @@
-baseURL = "127.0.0.1"
+baseURL = "https://stephen-zulauf.github.io/behovadotnet/"
 theme = "PaperMod"
 
 # Enable to get proper Mathjax support
