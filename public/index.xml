@@ -1,23 +1,98 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title></title>
-    <link>//localhost:1313/</link>
-    <description>Recent content on </description>
+    <title>behova.net</title>
+    <link>http://localhost:1313/behovadotnet/</link>
+    <description>Recent content on behova.net</description>
+    <image>
+      <title>behova.net</title>
+      <url>http://localhost:1313/behovadotnet/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/behovadotnet/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
     <lastBuildDate>Fri, 05 Jul 2024 12:51:22 -0700</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/behovadotnet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>//localhost:1313/posts/test/</link>
+      <link>http://localhost:1313/behovadotnet/posts/test/</link>
       <pubDate>Fri, 05 Jul 2024 12:51:22 -0700</pubDate>
-      <guid>//localhost:1313/posts/test/</guid>
+      <guid>http://localhost:1313/behovadotnet/posts/test/</guid>
+      <description>This is a Test Post hello world. This is the first hugo test post. it is in the content/post/ directory.
+here is a comparison of the headers:
+Header 1 Header 2 Header 3 Header 4 Header 5 Header 6 here is the test from the hugo quickstart doc:
+Introduction This is bold text, and this is emphasized text.
+Visit the Hugo website!
+here is a test of mathjax:
+$$a^*=x-b^*$$ </description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/behovadotnet/posts/test2/</link>
+      <pubDate>Fri, 05 Jul 2024 12:51:22 -0700</pubDate>
+      <guid>http://localhost:1313/behovadotnet/posts/test2/</guid>
       <description>This is a Test Post hello world. This is the first hugo test post. it is in the content/post/ directory.
 here is a comparison of the headers:
 Header 1 Header 2 Header 3 Header 4 Header 5 Header 6 here is the test from the hugo quickstart doc:
 Introduction This is bold text, and this is emphasized text.
 Visit the Hugo website!</description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/behovadotnet/posts/test3/</link>
+      <pubDate>Fri, 05 Jul 2024 12:51:22 -0700</pubDate>
+      <guid>http://localhost:1313/behovadotnet/posts/test3/</guid>
+      <description>This is a Test Post hello world. This is the first hugo test post. it is in the content/post/ directory.
+here is a comparison of the headers:
+Header 1 Header 2 Header 3 Header 4 Header 5 Header 6 here is the test from the hugo quickstart doc:
+Introduction This is bold text, and this is emphasized text.
+Visit the Hugo website!</description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/behovadotnet/posts/test4/</link>
+      <pubDate>Fri, 05 Jul 2024 12:51:22 -0700</pubDate>
+      <guid>http://localhost:1313/behovadotnet/posts/test4/</guid>
+      <description>This is a Test Post hello world. This is the first hugo test post. it is in the content/post/ directory.
+here is a comparison of the headers:
+Header 1 Header 2 Header 3 Header 4 Header 5 Header 6 here is the test from the hugo quickstart doc:
+Introduction This is bold text, and this is emphasized text.
+Visit the Hugo website!</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/behovadotnet/notes/git-github/ssh/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/behovadotnet/notes/git-github/ssh/</guid>
+      <description>Github SSH @toc
+Generate SSH key/pair (on arch)
+$ ssh-keygen Add Public key to github.com public key will be in file ending in .pub
+click on profile picture in upper right corner click settings in the menu click SSH and GPG keys click New ssh key copy and paste the full text from the .pub file </description>
+    </item>
+    <item>
+      <title>Git and Github</title>
+      <link>http://localhost:1313/behovadotnet/notes/git-github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/behovadotnet/notes/git-github/</guid>
+      <description>New Repo git init to create new repo in directory.
+Commit Proccess Add new files git add . To stage all files in directory.
+Commit changes locally git commit -m &amp;#34;Commit message here&amp;#34; Create new commit with message.
+Push changes to remote git push origin &amp;lt;branch name&amp;gt; To push to remote named &amp;lsquo;origin&amp;rsquo; and the branch name.
+Add Remote (for github)
+Create new repository on github.com ensure that repository is set up locally stage and add a commit make sure local repo is on correct branch e.</description>
+    </item>
+    <item>
+      <title>Marker Reference Tests</title>
+      <link>http://localhost:1313/behovadotnet/notes/test/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/behovadotnet/notes/test/</guid>
+      <description>@abstract In this example we will shows most of the basic syntax and test its functionality.
+@/
+@toc
+MARKER Test Maths This is a block equation: $$ \begin{cases} x = 42\\ y = \log_{10}(x) \end{cases} $$ An this is an inline equation: $x\in A$.
+@equation (x+1)^2=-y @/
+Listings The first listing is a simple cpp code and it should be visualized as code (and with syntax highlight if enabled).
+int main(int argc, char *argv[]) { std::cout&amp;lt;&amp;lt;&amp;#34;hello world\n&amp;#34;; return 0; } The following code block instead can be visualized as Mermaid chart if the extension is enabled in the preferences.</description>
     </item>
   </channel>
 </rss>

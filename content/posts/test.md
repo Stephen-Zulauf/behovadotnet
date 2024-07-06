@@ -20,9 +20,12 @@ here is a comparison of the headers:
 
 here is the test from the hugo quickstart doc:
 
-
 ## Introduction
 
 This is **bold** text, and this is *emphasized* text.
 
 Visit the [Hugo](https://gohugo.io) website!
+
+here is a test of mathjax:
+
+$$a^*=x-b^*$$

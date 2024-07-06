@@ -13,24 +13,24 @@ minify:
   minifyOutput: true
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
+  # env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: behoovah.net
+  description: "Notes and Posts"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: behoovah
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
-  defaultTheme: auto # dark, light
-  disableThemeToggle: false
+  defaultTheme: dark # dark, light
+  disableThemeToggle: true
 
   ShowReadingTime: true
   ShowShareButtons: true
-  ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: false
   ShowWordCount: true
-  ShowRssButtonInSectionTermList: true
+  ShowRssButtonInSectionTermList: false
   UseHugoToc: true
   disableSpecial1stPost: false
   disableScrollToTop: false
@@ -40,45 +40,54 @@ params:
   showtoc: false
   tocopen: false
 
+  math: true
+
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "favicons/favicon.ico"
+    favicon16x16: "favicons/favicon-16x16.png" 
+    favicon32x32: "favicons/favicon-32x32.png" 
+    apple_touch_icon: "favicons/apple-touch-icon.png"
+    # safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
-    icon: /apple-touch-icon.png
+    text: 
+    icon: "cow.gif"
     iconHeight: 35
 
+  # buttons:
+  #   - name: Posts
+  #     url: posts
+  #   - name: Tags
+  #     url: tags
+
+    
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
-    title: ExampleSite
-    subtitle: "This is subtitle"
-    imageUrl: "<img location>"
-    imageWidth: 120
-    imageHeight: 120
+    enabled: true # needs to be explicitly set
+    title: hello.
+    subtitle: "This is an archive for my university notes and blog posts"
+    imageUrl: "cow.gif"
+    imageWidth: 90
+    imageHeight: 90
     imageTitle: my image
     buttons:
+      - name: Notes
+        url: notes
       - name: Posts
         url: posts
-      - name: Tags
-        url: tags
 
   # home-info mode
-  homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+  # homeInfoParams:
+  #   Title: "Hi there \U0001F44B"
+  #   Content: Welcome to my blog
 
-  socialIcons:
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
+  # socialIcons:
+  #   - name: stackoverflow
+  #     url: "https://stackoverflow.com"
+  #   - name: github
+  #     url: "https://github.com/"
 
   # analytics:
   #   google:
@@ -93,10 +102,10 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-    URL: "https://github.com/<path_to_repo>/content"
-    Text: "Suggest Changes" # edit text
-    appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #   URL: "https://github.com/<path_to_repo>/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
 
   # for search
   # https://fusejs.io/api/options.html
@@ -134,7 +143,21 @@ markup:
     # lineNos: true
     # style: monokai
 
-# Enable to get proper Mathjax support
+
+  goldmark:
+      extensions:
+        passthrough:
+          delimiters:
+            block:
+            - - \[
+              - \]
+            - - $$
+              - $$
+            inline:
+            - - \(
+              - \)
+          enable: true 
+#Enable to get proper Mathjax support
 # [markup]
 #   [markup.goldmark]
 #     [markup.goldmark.extensions]

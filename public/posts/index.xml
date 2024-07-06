@@ -1,18 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on </title>
-    <link>//localhost:1313/posts/</link>
-    <description>Recent content in Posts on </description>
+    <title>Posts on behova.net</title>
+    <link>http://localhost:1313/behovadotnet/posts/</link>
+    <description>Recent content in Posts on behova.net</description>
+    <image>
+      <title>behova.net</title>
+      <url>http://localhost:1313/behovadotnet/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/behovadotnet/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
     <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
     <lastBuildDate>Fri, 05 Jul 2024 12:51:22 -0700</lastBuildDate>
-    <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/behovadotnet/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>//localhost:1313/posts/test/</link>
+      <link>http://localhost:1313/behovadotnet/posts/test/</link>
       <pubDate>Fri, 05 Jul 2024 12:51:22 -0700</pubDate>
-      <guid>//localhost:1313/posts/test/</guid>
+      <guid>http://localhost:1313/behovadotnet/posts/test/</guid>
+      <description>This is a Test Post hello world. This is the first hugo test post. it is in the content/post/ directory.
+here is a comparison of the headers:
+Header 1 Header 2 Header 3 Header 4 Header 5 Header 6 here is the test from the hugo quickstart doc:
+Introduction This is bold text, and this is emphasized text.
+Visit the Hugo website!
+here is a test of mathjax:
+$$a^*=x-b^*$$ </description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/behovadotnet/posts/test2/</link>
+      <pubDate>Fri, 05 Jul 2024 12:51:22 -0700</pubDate>
+      <guid>http://localhost:1313/behovadotnet/posts/test2/</guid>
+      <description>This is a Test Post hello world. This is the first hugo test post. it is in the content/post/ directory.
+here is a comparison of the headers:
+Header 1 Header 2 Header 3 Header 4 Header 5 Header 6 here is the test from the hugo quickstart doc:
+Introduction This is bold text, and this is emphasized text.
+Visit the Hugo website!</description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/behovadotnet/posts/test3/</link>
+      <pubDate>Fri, 05 Jul 2024 12:51:22 -0700</pubDate>
+      <guid>http://localhost:1313/behovadotnet/posts/test3/</guid>
+      <description>This is a Test Post hello world. This is the first hugo test post. it is in the content/post/ directory.
+here is a comparison of the headers:
+Header 1 Header 2 Header 3 Header 4 Header 5 Header 6 here is the test from the hugo quickstart doc:
+Introduction This is bold text, and this is emphasized text.
+Visit the Hugo website!</description>
+    </item>
+    <item>
+      <title>Test</title>
+      <link>http://localhost:1313/behovadotnet/posts/test4/</link>
+      <pubDate>Fri, 05 Jul 2024 12:51:22 -0700</pubDate>
+      <guid>http://localhost:1313/behovadotnet/posts/test4/</guid>
       <description>This is a Test Post hello world. This is the first hugo test post. it is in the content/post/ directory.
 here is a comparison of the headers:
 Header 1 Header 2 Header 3 Header 4 Header 5 Header 6 here is the test from the hugo quickstart doc:
