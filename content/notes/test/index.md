@@ -9,7 +9,7 @@ author: "behoovah"
 # author: ["Me", "You"] # multiple authors
 showToc: true
 TocOpen: false
-draft: false
+draft: true
 hidemeta: true
 comments: false
 # description: "Desc Text."

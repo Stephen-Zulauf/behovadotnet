@@ -11,29 +11,15 @@
     </image>
     <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/behovadotnet/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Marker Reference Tests</title>
-      <link>http://localhost:1313/behovadotnet/notes/test/</link>
-      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/behovadotnet/notes/test/</guid>
-      <description>In this example we will shows most of the basic syntax and test its functionality.
-MARKER Test Maths This is a block equation: $$ \begin{cases} x = 42\\ y = \log_{10}(x) \end{cases} $$ An this is an inline equation: $$x\in A$$ .
-Listings The first listing is a simple cpp code and it should be visualized as code (and with syntax highlight if enabled).
-int main(int argc, char *argv[]) { std::cout&amp;lt;&amp;lt;&amp;#34;hello world\n&amp;#34;; return 0; } The following code block instead can be visualized as Mermaid chart if the extension is enabled in the preferences.</description>
-    </item>
-    <item>
-      <title>Test</title>
-      <link>http://localhost:1313/behovadotnet/posts/test/</link>
-      <pubDate>Fri, 05 Jul 2024 12:51:22 -0700</pubDate>
-      <guid>http://localhost:1313/behovadotnet/posts/test/</guid>
-      <description>This is a Test Post hello world. This is the first hugo test post. it is in the content/post/ directory.
-here is a comparison of the headers:
-Header 1 Header 2 Header 3 Header 4 Header 5 Header 6 here is the test from the hugo quickstart doc:
-Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!
-Math Jax here is a test of mathjax:</description>
+      <title>Migration</title>
+      <link>http://localhost:1313/behovadotnet/posts/revamp/</link>
+      <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/behovadotnet/posts/revamp/</guid>
+      <description>Today I am just about finished with migrating my personal site from wordpress. I wanted to revamp the way I interact with my site, to make it easy to integrate into my workflow, and hopefully produce more documentation of what I&amp;rsquo;m up to.
+I was looking for the following features in my migration: Write pages in markdown format. I like to do everything in a modal editor these days. I am currently using Helix text editor after migrating from vim.</description>
     </item>
     <item>
       <title>Git and Github</title>
