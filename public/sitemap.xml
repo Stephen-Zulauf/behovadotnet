@@ -5,49 +5,31 @@
     <loc>http://localhost:1313/behovadotnet/</loc>
     <lastmod>2024-07-06T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/behovadotnet/categories/</loc>
-    <lastmod>2024-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/behovadotnet/tags/goat/</loc>
-    <lastmod>2024-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/behovadotnet/tags/markdown/</loc>
-    <lastmod>2024-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/behovadotnet/notes/test/</loc>
-    <lastmod>2024-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/behovadotnet/tags/mathjax/</loc>
-    <lastmod>2024-07-06T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/behovadotnet/notes/</loc>
-    <lastmod>2024-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/behovadotnet/categories/notes/</loc>
-    <lastmod>2024-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/behovadotnet/tags/</loc>
-    <lastmod>2024-07-06T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/behovadotnet/tags/test/</loc>
     <lastmod>2024-07-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/behovadotnet/posts/</loc>
     <lastmod>2024-07-05T12:51:22-07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/behovadotnet/posts/test/</loc>
-    <lastmod>2024-07-05T12:51:22-07:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/behovadotnet/posts/revamp/</loc>
+    <loc>http://localhost:1313/behovadotnet/categories/blog/</loc>
     <lastmod>2020-07-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/behovadotnet/categories/blog/</loc>
+    <loc>http://localhost:1313/behovadotnet/categories/</loc>
     <lastmod>2020-07-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/behovadotnet/tags/hugo/</loc>
     <lastmod>2020-07-09T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/behovadotnet/tags/markdown/</loc>
+    <lastmod>2020-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/behovadotnet/posts/revamp/</loc>
+    <lastmod>2020-07-09T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/behovadotnet/tags/static-site/</loc>
+    <lastmod>2020-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/behovadotnet/tags/</loc>
     <lastmod>2020-07-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/behovadotnet/notes/git-github/</loc>

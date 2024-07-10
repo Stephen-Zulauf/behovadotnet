@@ -26,12 +26,12 @@ KL(\hat{y} || y) &amp;= \sum_{c=1}^{M}\hat{y}_c \log{\frac{\hat{y}_c}{y_c}} \\
 JS(\hat{y} || y) &amp;= \frac{1}{2}(KL(y||\frac{y+\hat{y}}{2}) + KL(\hat{y}||\frac{y+\hat{y}}{2}))
 \end{aligned}
 \]
-</code></pre><p>will turn into:</p>\[
+</code></pre><p>will turn into:</p>$$
 \begin{aligned}
 KL(\hat{y} || y) &= \sum_{c=1}^{M}\hat{y}_c \log{\frac{\hat{y}_c}{y_c}} \\
 JS(\hat{y} || y) &= \frac{1}{2}(KL(y||\frac{y+\hat{y}}{2}) + KL(\hat{y}||\frac{y+\hat{y}}{2}))
 \end{aligned}
-\]<p>To me thats magic.</p><p>Additionally, hugo supports <a href=https://gohugo.io/content-management/diagrams/>diagrams and charts</a> in markdown format, which is great for computer science.</p><p>code like this:</p><pre tabindex=0><code>
+$$<p>To me thats magic.</p><p>Additionally, hugo supports <a href=https://gohugo.io/content-management/diagrams/>diagrams and charts</a> in markdown format, which is great for computer science.</p><p>code like this:</p><pre tabindex=0><code>
 ```goat
 
 

@@ -11,27 +11,15 @@
     </image>
     <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Jul 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/behovadotnet/tags/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Marker Reference Tests</title>
-      <link>http://localhost:1313/behovadotnet/notes/test/</link>
-      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/behovadotnet/notes/test/</guid>
-      <description>In this example we will shows most of the basic syntax and test its functionality.
-MARKER Test Maths This is a block equation: $$ \begin{cases} x = 42\\ y = \log_{10}(x) \end{cases} $$ An this is an inline equation: $$x\in A$$ .
-Listings The first listing is a simple cpp code and it should be visualized as code (and with syntax highlight if enabled).
-int main(int argc, char *argv[]) { std::cout&amp;lt;&amp;lt;&amp;#34;hello world\n&amp;#34;; return 0; } The following code block instead can be visualized as Mermaid chart if the extension is enabled in the preferences.</description>
-    </item>
-    <item>
-      <title>Behova.net Migration</title>
+      <title>Migration</title>
       <link>http://localhost:1313/behovadotnet/posts/revamp/</link>
       <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/behovadotnet/posts/revamp/</guid>
-      <description>Today I am just about finished with migrating my personal site from wordpress.
-I wanted to revamp the way I interact with my site, to make it easy to integrate into my workflow, and hopefully produce more documentation of what I&amp;rsquo;m up to.
-I was looking for the following features in my migration:
-Write pages in markdown format. I like to do everything in a modal editor these days. I am currently using Helix text editor after migrating from vim.</description>
+      <description>Today I am just about finished with migrating my personal site from wordpress. I wanted to revamp the way I interact with my site, to make it easy to integrate into my workflow, and hopefully produce more documentation of what I&amp;rsquo;m up to.
+I was looking for the following features in my migration: Write pages in markdown format. I like to do everything in a modal editor these days. I am currently using Helix text editor after migrating from vim.</description>
     </item>
   </channel>
 </rss>
