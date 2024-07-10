@@ -23,41 +23,7 @@ here is a comparison of the headers:
 Header 1 Header 2 Header 3 Header 4 Header 5 Header 6 here is the test from the hugo quickstart doc:
 Introduction This is bold text, and this is emphasized text.
 Visit the Hugo website!
-here is a test of mathjax:
-$$a^*=x-b^*$$ </description>
-    </item>
-    <item>
-      <title>Test</title>
-      <link>http://localhost:1313/behovadotnet/posts/test2/</link>
-      <pubDate>Fri, 05 Jul 2024 12:51:22 -0700</pubDate>
-      <guid>http://localhost:1313/behovadotnet/posts/test2/</guid>
-      <description>This is a Test Post hello world. This is the first hugo test post. it is in the content/post/ directory.
-here is a comparison of the headers:
-Header 1 Header 2 Header 3 Header 4 Header 5 Header 6 here is the test from the hugo quickstart doc:
-Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!</description>
-    </item>
-    <item>
-      <title>Test</title>
-      <link>http://localhost:1313/behovadotnet/posts/test3/</link>
-      <pubDate>Fri, 05 Jul 2024 12:51:22 -0700</pubDate>
-      <guid>http://localhost:1313/behovadotnet/posts/test3/</guid>
-      <description>This is a Test Post hello world. This is the first hugo test post. it is in the content/post/ directory.
-here is a comparison of the headers:
-Header 1 Header 2 Header 3 Header 4 Header 5 Header 6 here is the test from the hugo quickstart doc:
-Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!</description>
-    </item>
-    <item>
-      <title>Test</title>
-      <link>http://localhost:1313/behovadotnet/posts/test4/</link>
-      <pubDate>Fri, 05 Jul 2024 12:51:22 -0700</pubDate>
-      <guid>http://localhost:1313/behovadotnet/posts/test4/</guid>
-      <description>This is a Test Post hello world. This is the first hugo test post. it is in the content/post/ directory.
-here is a comparison of the headers:
-Header 1 Header 2 Header 3 Header 4 Header 5 Header 6 here is the test from the hugo quickstart doc:
-Introduction This is bold text, and this is emphasized text.
-Visit the Hugo website!</description>
+Math Jax here is a test of mathjax:</description>
     </item>
   </channel>
 </rss>

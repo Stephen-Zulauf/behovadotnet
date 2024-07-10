@@ -1,19 +1,42 @@
-
 ---
-numbering: true
-title: Marker Reference Tests
-keywords: Markdown, Scidown, LaTeX, HTML
-paper: A3
-class: report
-
+title: "Marker Reference Tests"
+date: 2024-07-06
+# weight: 1
+# aliases: ["/first"]
+tags: ["test", "markdown", "mathjax", "goat"]
+categories: ["notes"]
+author: "behoovah"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: true
+comments: false
+# description: "Desc Text."
+# canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: true
+hideSummary: true
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: false
+ShowPostNavLinks: false
+ShowWordCount: true
+ShowRssButtonInSectionTermList: false
+UseHugoToc: true
+# cover:
+  #  image: "<image path/url>" # image path/url
+  #  alt: "<alt text>" # alt text
+  #  caption: "<text>" # display caption under cover
+  #  relative: false # when using page bundles set this to true
+  #  hidden: true # only hide on current single page
+# editPost:
+  #  URL: "https://github.com/<path_to_repo>/content"
+  #  Text: "Suggest Changes" # edit text
+  #  appendFilePath: true # to append file path to Edit link
 ---
 
-@abstract
 In this example we will shows most of the basic syntax and test its functionality. 
-
-@/
-
-@toc
 
 # MARKER Test
 
@@ -27,11 +50,7 @@ y = \log_{10}(x)
 \end{cases}
 $$
 
-An this is an inline equation: $x\in A$.
-
-@equation
-(x+1)^2=-y
-@/
+An this is an inline equation: $$x\in A$$.
 
 ## Listings
 

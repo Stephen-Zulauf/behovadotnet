@@ -1,9 +1,10 @@
 ---
-title: "Link Test"
-date: 2020-09-15
+title: "Marksmen Link Test"
+date: 2024-07-06
 # weight: 1
 # aliases: ["/first"]
-tags: ["first"]
+tags: ["test", "Marksmen"]
+categories: ["notes"]
 author: "behoovah"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -15,7 +16,6 @@ comments: false
 # canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: true
-disableHLJS: false
 hideSummary: true
 searchHidden: false
 ShowReadingTime: true

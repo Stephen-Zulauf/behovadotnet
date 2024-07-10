@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>First on behova.net</title>
-    <link>http://localhost:1313/behovadotnet/tags/first/</link>
-    <description>Recent content in First on behova.net</description>
+    <title>Mathjax on behova.net</title>
+    <link>http://localhost:1313/behovadotnet/tags/mathjax/</link>
+    <description>Recent content in Mathjax on behova.net</description>
     <image>
       <title>behova.net</title>
       <url>http://localhost:1313/behovadotnet/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,17 +12,14 @@
     <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
     <lastBuildDate>Sat, 06 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/behovadotnet/tags/first/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/behovadotnet/tags/mathjax/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Marker Reference Tests</title>
       <link>http://localhost:1313/behovadotnet/notes/test/</link>
       <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/behovadotnet/notes/test/</guid>
-      <description>@abstract In this example we will shows most of the basic syntax and test its functionality.
-@/
-@toc
-MARKER Test Maths This is a block equation: $$ \begin{cases} x = 42\\ y = \log_{10}(x) \end{cases} $$ An this is an inline equation: $x\in A$.
-@equation (x+1)^2=-y @/
+      <description>In this example we will shows most of the basic syntax and test its functionality.
+MARKER Test Maths This is a block equation: $$ \begin{cases} x = 42\\ y = \log_{10}(x) \end{cases} $$ An this is an inline equation: $$x\in A$$ .
 Listings The first listing is a simple cpp code and it should be visualized as code (and with syntax highlight if enabled).
 int main(int argc, char *argv[]) { std::cout&amp;lt;&amp;lt;&amp;#34;hello world\n&amp;#34;; return 0; } The following code block instead can be visualized as Mermaid chart if the extension is enabled in the preferences.</description>
     </item>

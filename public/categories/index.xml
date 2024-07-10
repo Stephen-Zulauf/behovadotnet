@@ -11,6 +11,14 @@
     </image>
     <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
+    <lastBuildDate>Sat, 06 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/behovadotnet/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Notes</title>
+      <link>http://localhost:1313/behovadotnet/categories/notes/</link>
+      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/behovadotnet/categories/notes/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
