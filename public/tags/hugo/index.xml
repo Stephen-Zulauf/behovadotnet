@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Hugo on behova.net</title>
-    <link>https://stephen-zulauf.github.io/behovadotnet/tags/hugo/</link>
+    <link>http://localhost:1313/behovadotnet/tags/hugo/</link>
     <description>Recent content in Hugo on behova.net</description>
     <image>
       <title>behova.net</title>
-      <url>https://stephen-zulauf.github.io/behovadotnet/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>https://stephen-zulauf.github.io/behovadotnet/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/behovadotnet/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/behovadotnet/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
     <lastBuildDate>Thu, 09 Jul 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://stephen-zulauf.github.io/behovadotnet/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/behovadotnet/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Migration</title>
-      <link>https://stephen-zulauf.github.io/behovadotnet/posts/revamp/</link>
+      <link>http://localhost:1313/behovadotnet/posts/revamp/</link>
       <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>https://stephen-zulauf.github.io/behovadotnet/posts/revamp/</guid>
+      <guid>http://localhost:1313/behovadotnet/posts/revamp/</guid>
       <description>Today I am just about finished with migrating my personal site from wordpress. I wanted to revamp the way I interact with my site, to make it easy to integrate into my workflow, and hopefully produce more documentation of what I&amp;rsquo;m up to.
 I was looking for the following features in my migration: Write pages in markdown format. I like to do everything in a modal editor these days. I am currently using Helix text editor after migrating from vim.</description>
     </item>
