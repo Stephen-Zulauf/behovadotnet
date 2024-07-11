@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/behovadotnet/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LaTeX with Hugo and PaperMod Theme, Step-by-Step</title>
+      <link>http://localhost:1313/behovadotnet/posts/hugo-setup/</link>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/behovadotnet/posts/hugo-setup/</guid>
+      <description>Intro I recently set up my personal site using Hugo the static site generator, with deployment to github pages. Most of the proccess was straight-forward and enjoyable. I did run into a few problems when trying to enable support for LaTeX type syntax embedded in my markdown files. I thought I would do a short step-by-step write-up for future reference.
+Most of this setup is available in the Official Hugo Documentation but there are a few pitfalls and theme specific steps that are not included there.</description>
+    </item>
     <item>
       <title>Migration</title>
       <link>http://localhost:1313/behovadotnet/posts/revamp/</link>

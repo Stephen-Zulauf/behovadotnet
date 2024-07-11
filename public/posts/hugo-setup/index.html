@@ -1,0 +1,101 @@
+<!doctype html><html lang=en dir=auto><head><script src="/behovadotnet/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=behovadotnet/livereload" data-no-instant defer></script><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="noindex, nofollow"><title>LaTeX with Hugo and PaperMod Theme, Step-by-Step | behova.net</title>
+<meta name=keywords content="LaTex,MathJax,Hugo,PaperMod,Markdown"><meta name=description content="Intro I recently set up my personal site using Hugo the static site generator, with deployment to github pages. Most of the proccess was straight-forward and enjoyable. I did run into a few problems when trying to enable support for LaTeX type syntax embedded in my markdown files. I thought I would do a short step-by-step write-up for future reference.
+Most of this setup is available in the Official Hugo Documentation but there are a few pitfalls and theme specific steps that are not included there."><meta name=author content="behoovah"><link rel=canonical href=http://localhost:1313/behovadotnet/posts/hugo-setup/><link crossorigin=anonymous href=/behovadotnet/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as=style><link rel=icon href=http://localhost:1313/behovadotnet/favicons/favicon.ico><link rel=icon type=image/png sizes=16x16 href=http://localhost:1313/behovadotnet/favicons/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=http://localhost:1313/behovadotnet/favicons/favicon-32x32.png><link rel=apple-touch-icon href=http://localhost:1313/behovadotnet/favicons/apple-touch-icon.png><link rel=mask-icon href=http://localhost:1313/behovadotnet/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=http://localhost:1313/behovadotnet/posts/hugo-setup/><noscript><style>#theme-toggle,.top-link{display:none}</style></noscript><script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js></script><script>MathJax={tex:{displayMath:[["\\[","\\]"],["$$","$$"]],inlineMath:[["\\(","\\)"]]}}</script></head><body class=dark id=top><header class=header><nav class=nav><div class=logo><a href=http://localhost:1313/behovadotnet/ accesskey=h title="behova.net (Alt + H)"><img src=http://localhost:1313/behovadotnet/cow.gif alt aria-label=logo height=35>behova.net</a><div class=logo-switches></div></div><ul id=menu><li><a href=http://localhost:1313/behovadotnet/categories/ title=categories><span>categories</span></a></li><li><a href=http://localhost:1313/behovadotnet/tags/ title=tags><span>tags</span></a></li><li><a href=http://localhost:1313/behovadotnet/notes/ title=notes><span>notes</span></a></li><li><a href=http://localhost:1313/behovadotnet/posts/ title=posts><span>posts</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class="post-title entry-hint-parent">LaTeX with Hugo and PaperMod Theme, Step-by-Step</h1></header><div class=toc><details><summary accesskey=c title="(Alt + C)"><span class=details>Table of Contents</span></summary><div class=inner><nav id=TableOfContents><ul><li><a href=#intro>Intro</a></li><li><a href=#configure-goldmark>Configure Goldmark</a></li><li><a href=#create-a-partial-template>Create a Partial Template</a></li><li><a href=#use-theme-to-call-the-partial-script>Use Theme to Call the Partial Script</a></li><li><a href=#add-math-parameter-to-config>Add Math Parameter to Config</a><ul><li><a href=#per-page>Per Page:</a></li><li><a href=#globally>Globally:</a></li></ul></li><li><a href=#testing>Testing</a></li></ul></nav></div></details></div><div class=post-content><h2 id=intro>Intro<a hidden class=anchor aria-hidden=true href=#intro>#</a></h2><p>I recently set up my personal site using <a href=https://gohugo.io/>Hugo</a> the static site generator, with deployment
+to github pages. Most of the proccess was straight-forward and enjoyable. I did run into a few problems when
+trying to enable support for LaTeX type syntax embedded in my markdown files. I thought I would do a short
+step-by-step write-up for future reference.</p><p>Most of this setup is available in the <a href=https://gohugo.io/content-management/mathematics/>Official Hugo Documentation</a>
+but there are a few pitfalls and theme specific steps that are not included there.</p><h2 id=configure-goldmark>Configure Goldmark<a hidden class=anchor aria-hidden=true href=#configure-goldmark>#</a></h2><p><a href=https://gohugo.io/getting-started/configuration-markup/>Goldmark</a> is the default way that Hugo turns your
+markdown files into HTML.</p><p>You will need to add this to your main config, hugo.yml or toml file at the top of the directory your site is in:
+(/hugo.yml)</p><pre tabindex=0><code>markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+        enable: true
+params:
+  math: true
+</code></pre><p>This will prevent GoldMark from wrongly interpreting LaTeX syntax within the delimiters as markdown.
+If you are using a parser other than goldmark you will need to refer to the docs to see if it will
+inerfere with the LaTeX syntax.</p><h2 id=create-a-partial-template>Create a Partial Template<a hidden class=anchor aria-hidden=true href=#create-a-partial-template>#</a></h2><p>Next you will want to navigate from the top directory into layouts/partials/ and create a new file called
+math.md, with the following content:</p><pre tabindex=0><code>&lt;script id=&#34;MathJax-script&#34; async src=&#34;https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js&#34;&gt;&lt;/script&gt;
+&lt;script&gt;
+  MathJax = {
+    tex: {
+      displayMath: [[&#39;\\[&#39;, &#39;\\]&#39;], [&#39;$$&#39;, &#39;$$&#39;]],  // block
+      inlineMath: [[&#39;\\(&#39;, &#39;\\)&#39;]]                  // inline
+    }
+  };
+&lt;/script&gt;
+</code></pre><p>We will have our theme load this script into the header of each page. It will connect to the CDN at the given
+url and using the js file to convert the LaTeX syntax to be displayed on the fly when the page is loaded.
+(note that you will want all your delimiters to match in each of these steps/files, if you want to change them to something
+different just make sure it is consistent).</p><h2 id=use-theme-to-call-the-partial-script>Use Theme to Call the Partial Script<a hidden class=anchor aria-hidden=true href=#use-theme-to-call-the-partial-script>#</a></h2><p>I am using the <a href=https://github.com/adityatelange/hugo-PaperMod>PaperMod</a> theme, which has a file called
+&rsquo;extend_head.html&rsquo; in the layouts/partials within the theme folder. (for me: /themes/PaperMod/layouts/partials/extend_head.html).
+We want to copy this file into our global Hugo layouts/partials directory. So something like:</p><pre tabindex=0><code>cp &lt;site-name&gt;/themes/PaperMod/layouts/partials/extend_head.html ~/&lt;site-name&gt;/layouts/partials/extend_head.html
+</code></pre><p>Then add a call to load the partial created in the previous step to the file in the global directory:
+~/site-name/layouts/partials/extend_head.html</p><pre tabindex=0><code>{{ if .Param &#34;math&#34; }}
+    {{ partialCached &#34;math.html&#34; . }}
+  {{ end }}
+</code></pre><p>When hugo loads the PaperMod theme it will use our custom extend_head.html to override the content of the one in the
+theme folder. PaperMod will then add it to the header of every page, extending the normal header.</p><h2 id=add-math-parameter-to-config>Add Math Parameter to Config<a hidden class=anchor aria-hidden=true href=#add-math-parameter-to-config>#</a></h2><p>Hugo will be checking if we have the &lsquo;math&rsquo; parameter enabled before it utilizes the partial so we need to enable
+it in the main config hugo.yml or we can enable it per page:</p><h3 id=per-page>Per Page:<a hidden class=anchor aria-hidden=true href=#per-page>#</a></h3><p>site-name/hugo.yml</p><pre tabindex=0><code>params:
+  math: false
+</code></pre><p>Then to enable per page:
+site-name/content/blog-post.md</p><pre tabindex=0><code>---
+title: &#34;Migration&#34;
+date: 2020-07-09
+# weight: 1
+# aliases: [&#34;/first&#34;]
+tags: [&#34;Hugo&#34;, &#34;Static-Site&#34;, &#34;Markdown&#34;]
+categories: [&#34;blog&#34;]
+author: &#34;behoovah&#34;
+
+math: true
+---
+</code></pre><h3 id=globally>Globally:<a hidden class=anchor aria-hidden=true href=#globally>#</a></h3><p>site-name/hugo.yml</p><pre tabindex=0><code>params:
+  math: true
+</code></pre><h2 id=testing>Testing<a hidden class=anchor aria-hidden=true href=#testing>#</a></h2><p>You can test that your changes have worked by running the hugo server command.
+if you do some syntax such as:</p><pre tabindex=0><code>This is an inline \(a^*=x-b^*\) equation.
+
+These are block equations:
+
+\[a^*=x-b^*\]
+
+\[ a^*=x-b^* \]
+
+\[
+a^*=x-b^*
+\]
+
+These are block equations using alternate delimiters:
+
+$$a^*=x-b^*$$
+
+$$ a^*=x-b^* $$
+
+$$
+a^*=x-b^*
+$$
+</code></pre><p>You should get an output like this:</p><p>This is an inline \(a^*=x-b^*\) equation.</p><p>These are block equations:</p>\[a^*=x-b^*\]
+\[ a^*=x-b^* \]
+\[
+a^*=x-b^*
+\]<p>These are block equations using alternate delimiters:</p>$$a^*=x-b^*$$
+$$ a^*=x-b^* $$
+$$
+a^*=x-b^*
+$$<p>Another thing to check is to open the browser inspector and go to the network tab or
+wherever it shows what urls are activated from the page load. You should be able to see that when you refresh,
+the URL for the mathjax CDN is being called.</p></div><footer class=post-footer><ul class=post-tags><li><a href=http://localhost:1313/behovadotnet/tags/latex/>LaTex</a></li><li><a href=http://localhost:1313/behovadotnet/tags/mathjax/>MathJax</a></li><li><a href=http://localhost:1313/behovadotnet/tags/hugo/>Hugo</a></li><li><a href=http://localhost:1313/behovadotnet/tags/papermod/>PaperMod</a></li><li><a href=http://localhost:1313/behovadotnet/tags/markdown/>Markdown</a></li></ul></footer></article></main><footer class=footer><span>&copy; 2024 <a href=http://localhost:1313/behovadotnet/>behova.net</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script></body></html>

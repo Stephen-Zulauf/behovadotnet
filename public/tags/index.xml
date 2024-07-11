@@ -11,20 +11,41 @@
     </image>
     <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/behovadotnet/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Hugo</title>
       <link>http://localhost:1313/behovadotnet/tags/hugo/</link>
-      <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/behovadotnet/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LaTex</title>
+      <link>http://localhost:1313/behovadotnet/tags/latex/</link>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/behovadotnet/tags/latex/</guid>
       <description></description>
     </item>
     <item>
       <title>Markdown</title>
       <link>http://localhost:1313/behovadotnet/tags/markdown/</link>
-      <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/behovadotnet/tags/markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>MathJax</title>
+      <link>http://localhost:1313/behovadotnet/tags/mathjax/</link>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/behovadotnet/tags/mathjax/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PaperMod</title>
+      <link>http://localhost:1313/behovadotnet/tags/papermod/</link>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/behovadotnet/tags/papermod/</guid>
       <description></description>
     </item>
     <item>
