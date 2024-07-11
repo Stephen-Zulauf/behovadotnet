@@ -74,7 +74,9 @@ inerfere with the LaTeX syntax.
 
 ##  Create a Partial Template
 Next you will want to navigate from the top directory into layouts/partials/ and create a new file called
-math.md, with the following content:
+math.html, with the following content:
+
+/site-name/layouts/partials/math.html
 ```
 <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
 <script>
@@ -113,13 +115,13 @@ Hugo will be checking if we have the 'math' parameter enabled before it utilizes
 it in the main config hugo.yml or we can enable it per page:
 
 ### Per Page:
-site-name/hugo.yml
+/site-name/hugo.yml
 ```
 params:
   math: false
 ```
 Then to enable per page:
-site-name/content/blog-post.md
+/site-name/content/blog-post.md
 ```
 ---
 title: "Migration"
@@ -134,7 +136,7 @@ math: true
 ---
 ```
 ### Globally:
-site-name/hugo.yml
+/site-name/hugo.yml
 ```
 params:
   math: true
