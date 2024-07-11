@@ -1,5 +1,5 @@
 ---
-title: "LaTeX with Hugo and PaperMod Theme, Step-by-Step"
+title: "LaTeX with Hugo and PaperMod"
 date: 2024-07-11
 # weight: 1
 # aliases: ["/first"]
