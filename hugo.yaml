@@ -120,22 +120,18 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: categories
-      name: categories
-      url: /categories/
-      weight: 10
     - identifier: tags
       name: tags
       url: /tags/
-      weight: 20
+      weight: 10
     - identifier: notes
       name: notes
       url: /notes/
-      weight: 30
+      weight: 20
     - identifier: posts
       name: posts
       url: /posts/
-      weight: 40
+      weight: 30
     # - identifier: example
     #   name: example.org
     #   url: https://example.org
