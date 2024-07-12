@@ -1,11 +1,39 @@
-
 ---
-numbering: true
-title: Git and Github
-keywords: Git, GitHub, MarkDown, HTML
-paper: A3
-class: report
-ShowToc: true
+title: "Git and Github"
+date: 2024-07-11
+# weight: 1
+# aliases: ["/first"]
+tags: ["Git", "GitHub", "Markdown", "HTML"]
+categories: ["notes"]
+author: "behoovah"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: true
+comments: false
+# description: "Desc Text."
+# canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: true
+hideSummary: false
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: false
+ShowPostNavLinks: false
+ShowWordCount: true
+ShowRssButtonInSectionTermList: false
+UseHugoToc: true
+# cover:
+  #  image: "<image path/url>" # image path/url
+  #  alt: "<alt text>" # alt text
+  #  caption: "<text>" # display caption under cover
+  #  relative: false # when using page bundles set this to true
+  #  hidden: true # only hide on current single page
+# editPost:
+  #  URL: "https://github.com/<path_to_repo>/content"
+  #  Text: "Suggest Changes" # edit text
+  #  appendFilePath: true # to append file path to Edit link
 ---
 
 ## New Repo
@@ -65,6 +93,21 @@ git remote add origin https://github.com/Stephen-Zulauf/notes.git
 
 ## Add SSH Auth
 
-See [add ssh to git and github](../ssh)
-gdlink:
-[[ssh]]
+### Generate SSH key/pair
+
+(on arch)
+
+```
+$ ssh-keygen
+```
+
+### Add Public key to github.com
+
+public key will be in file ending in .pub
+
++ click on profile picture in upper
+right corner
++ click settings in the menu
++ click SSH and GPG keys
++ click New ssh key
++ copy and paste the full text from the .pub file
