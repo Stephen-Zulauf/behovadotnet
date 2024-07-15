@@ -2,26 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Notes on behova.net</title>
-    <link>http://localhost:1313/behovadotnet/categories/notes/</link>
+    <link>http://localhost:1313/categories/notes/</link>
     <description>Recent content in Notes on behova.net</description>
     <image>
       <title>behova.net</title>
-      <url>http://localhost:1313/behovadotnet/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/behovadotnet/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/behovadotnet/categories/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/notes/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Marker Reference Tests</title>
-      <link>http://localhost:1313/behovadotnet/notes/test/</link>
-      <pubDate>Sat, 06 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/behovadotnet/notes/test/</guid>
-      <description>In this example we will shows most of the basic syntax and test its functionality.
-MARKER Test Maths This is a block equation: $$ \begin{cases} x = 42\\ y = \log_{10}(x) \end{cases} $$ An this is an inline equation: $$x\in A$$ .
-Listings The first listing is a simple cpp code and it should be visualized as code (and with syntax highlight if enabled).
-int main(int argc, char *argv[]) { std::cout&amp;lt;&amp;lt;&amp;#34;hello world\n&amp;#34;; return 0; } The following code block instead can be visualized as Mermaid chart if the extension is enabled in the preferences.</description>
+      <title>Blue Tooth Connection on Arch</title>
+      <link>http://localhost:1313/notes/arch-bluetooth/</link>
+      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/arch-bluetooth/</guid>
+      <description>Make sure Packages are Installed Bluez and bluez-utils are required for bluetooth ctl.
+Start/Enable Bluetooth Service # systemctl start bluetooth.service Start bluetoothctl # bluetoothctl This will start an interactive prompt.
+# exit to exit
+Enter Scan # scan on to begin looking for devices to pair.
+Pair You can highlight the mac address of the device you want to pair then:
+ctrl+shift+c to copy it to the clipboard. then type</description>
+    </item>
+    <item>
+      <title>Git and Github</title>
+      <link>http://localhost:1313/notes/git-github/</link>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/git-github/</guid>
+      <description>New Repo git init to create new repo in directory.
+Commit Proccess Add new files git add . To stage all files in directory.
+Commit changes locally git commit -m &amp;#34;Commit message here&amp;#34; Create new commit with message.
+Push changes to remote git push origin &amp;lt;branch name&amp;gt; To push to remote named &amp;lsquo;origin&amp;rsquo; and the branch name.
+Add Remote (for github)
+Create new repository on github.com ensure that repository is set up locally stage and add a commit make sure local repo is on correct branch e.</description>
     </item>
   </channel>
 </rss>

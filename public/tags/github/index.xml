@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GitHub on behova.net</title>
+    <link>http://localhost:1313/tags/github/</link>
+    <description>Recent content in GitHub on behova.net</description>
+    <image>
+      <title>behova.net</title>
+      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- 0.128.2</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 11 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git and Github</title>
+      <link>http://localhost:1313/notes/git-github/</link>
+      <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/git-github/</guid>
+      <description>New Repo git init to create new repo in directory.
+Commit Proccess Add new files git add . To stage all files in directory.
+Commit changes locally git commit -m &amp;#34;Commit message here&amp;#34; Create new commit with message.
+Push changes to remote git push origin &amp;lt;branch name&amp;gt; To push to remote named &amp;lsquo;origin&amp;rsquo; and the branch name.
+Add Remote (for github)
+Create new repository on github.com ensure that repository is set up locally stage and add a commit make sure local repo is on correct branch e.</description>
+    </item>
+  </channel>
+</rss>
