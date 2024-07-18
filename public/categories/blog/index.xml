@@ -19,7 +19,7 @@
       <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/wsu-wireless/</guid>
       <description>Intro I&amp;rsquo;ve found a way to connect my Arch-Linux laptop to the WSU WIFI reliably. Since I had a bit of difficulty figuring this out on my own I thought I would document it here.
-I&amp;rsquo;m assuming you already have wifi capability set-up, and have connected to other networks. I am using Network Manager. With the nmcli to connect to networks normally. But I found it easier to use nmtui, when dealing with networks that need a username and a password.</description>
+I&amp;rsquo;m assuming you already have wifi capability set-up, and have connected to other networks. I am using Network Manager, with the nmcli command to connect to networks normally. But I found it&amp;rsquo;s easier to use nmtui, when dealing with networks that require a username and a password.</description>
     </item>
     <item>
       <title>LaTeX with Hugo and PaperMod</title>

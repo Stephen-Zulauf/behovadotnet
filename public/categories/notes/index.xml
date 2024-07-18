@@ -37,5 +37,12 @@ Push changes to remote git push origin &amp;lt;branch name&amp;gt; To push to re
 Add Remote (for github)
 Create new repository on github.com ensure that repository is set up locally stage and add a commit make sure local repo is on correct branch e.</description>
     </item>
+    <item>
+      <title>hello note</title>
+      <link>http://localhost:1313/notes/arch-wifi/</link>
+      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/arch-wifi/</guid>
+      <description>hello world gp to go back.</description>
+    </item>
   </channel>
 </rss>

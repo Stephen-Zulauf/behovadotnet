@@ -36,6 +36,8 @@ UseHugoToc: true
   #  appendFilePath: true # to append file path to Edit link
 ---
 
+---
+
 ## New Repo
 ```
 git init
@@ -111,3 +113,5 @@ right corner
 + click SSH and GPG keys
 + click New ssh key
 + copy and paste the full text from the .pub file
+
+---

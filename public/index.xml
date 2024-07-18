@@ -14,6 +14,18 @@
     <lastBuildDate>Wed, 17 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Arch- wifi</title>
+      <link>http://localhost:1313/notes/arch-wifi/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/arch-wifi/</guid>
+      <description>Make Sure Packages Are Installed Network Manager is the most simple network utility that I have found.
+Start/Enable Network Manager Service If you haven&amp;rsquo;t yet you can enter:
+# systemctl start NetworkManager.service to start the network manager daemon.
+Start Network Manager You can use the curses tui:
+# nmtui and use the menus to create/activate a new connection. or you can use the cli:
+# nmcli device wifi list to scan for networks # nmcli device wifi connect &amp;lt;SSID_or_BSSID&amp;gt; password &amp;lt;password&amp;gt; to connect to a network.</description>
+    </item>
+    <item>
       <title>WSU Wireless on Arch Linux</title>
       <link>http://localhost:1313/posts/wsu-wireless/</link>
       <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>

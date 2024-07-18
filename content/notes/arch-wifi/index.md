@@ -1,9 +1,9 @@
 ---
-title: "Arch- Connect BlueTooth"
-date: 2024-07-14
+title: "Arch- wifi"
+date: 2024-07-17
 # weight: 1
 # aliases: ["/first"]
-tags: ["arch", "linux", "blue-tooth", "connect"]
+tags: ["wifi", "wireless", "linux", "arch", "connect"]
 categories: ["notes"]
 author: "behoovah"
 # author: ["Me", "You"] # multiple authors
@@ -36,45 +36,30 @@ UseHugoToc: true
   #  appendFilePath: true # to append file path to Edit link
 ---
 
-### Make sure Packages are Installed
-[Bluez](https://archlinux.org/packages/?name=bluez) and [bluez-utils](https://archlinux.org/packages/?name=bluez-utils)
-are required for bluetooth ctl.
+---
+## Make Sure Packages Are Installed
+[Network Manager](https://wiki.archlinux.org/title/NetworkManager) is the most simple network utility
+that I have found.
 
-### Start/Enable Bluetooth Service
+## Start/Enable Network Manager Service
+If you haven't yet you can enter:
 ```
-# systemctl start bluetooth.service
+# systemctl start NetworkManager.service
 ```
-### Start bluetoothctl 
-```
-# bluetoothctl
-```
-This will start an interactive prompt. 
-```
-# exit
-```
-to exit
-### Enter Scan
-```
-# scan on
-```
-to begin looking for devices to pair.
-### Pair
-You can highlight the mac address of the device you want to pair
-then:
-```
-ctrl+shift+c
-```
-to copy it to the clipboard.
-then type
+to start the network manager daemon.
 
+## Start Network Manager
+You can use the curses tui:
 ```
-# pair ctrl+shift+v
+# nmtui
 ```
-to copy in the mac address. once this is successful move onto the next step.
-### Connect
-```
-# connect ctrl+shift+v
-```
+and use the menus to create/activate a new connection.
+or you can use the cli:
++ `# nmcli device wifi list` to scan for networks
++ `# nmcli device wifi connect <SSID_or_BSSID> password <password>` to connect to a network.
++ `ping www.google.com` to test the connection.
 
-to copy the mac address back in and connect to the device.
+see the [arch wiki](https://wiki.archlinux.org/title/NetworkManager#Usage) for a detailed list
+of nmcli commands.
 
+---
