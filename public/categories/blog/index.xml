@@ -11,8 +11,16 @@
     </image>
     <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WSU Wireless on Arch Linux</title>
+      <link>http://localhost:1313/posts/wsu-wireless/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/wsu-wireless/</guid>
+      <description>Intro I&amp;rsquo;ve found a way to connect my Arch-Linux laptop to the WSU WIFI reliably. Since I had a bit of difficulty figuring this out on my own I thought I would document it here.
+I&amp;rsquo;m assuming you already have wifi capability set-up, and have connected to other networks. I am using Network Manager. With the nmcli to connect to networks normally. But I found it easier to use nmtui, when dealing with networks that need a username and a password.</description>
+    </item>
     <item>
       <title>LaTeX with Hugo and PaperMod</title>
       <link>http://localhost:1313/posts/hugo-setup/</link>

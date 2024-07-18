@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Arch on behova.net</title>
-    <link>http://localhost:1313/tags/arch/</link>
-    <description>Recent content in Arch on behova.net</description>
+    <title>Wireless on behova.net</title>
+    <link>http://localhost:1313/tags/wireless/</link>
+    <description>Recent content in Wireless on behova.net</description>
     <image>
       <title>behova.net</title>
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -12,7 +12,7 @@
     <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
     <lastBuildDate>Wed, 17 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/arch/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/wireless/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WSU Wireless on Arch Linux</title>
       <link>http://localhost:1313/posts/wsu-wireless/</link>
@@ -20,18 +20,6 @@
       <guid>http://localhost:1313/posts/wsu-wireless/</guid>
       <description>Intro I&amp;rsquo;ve found a way to connect my Arch-Linux laptop to the WSU WIFI reliably. Since I had a bit of difficulty figuring this out on my own I thought I would document it here.
 I&amp;rsquo;m assuming you already have wifi capability set-up, and have connected to other networks. I am using Network Manager. With the nmcli to connect to networks normally. But I found it easier to use nmtui, when dealing with networks that need a username and a password.</description>
-    </item>
-    <item>
-      <title>Arch- Connect BlueTooth</title>
-      <link>http://localhost:1313/notes/arch-bluetooth/</link>
-      <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/arch-bluetooth/</guid>
-      <description>Make sure Packages are Installed Bluez and bluez-utils are required for bluetooth ctl.
-Start/Enable Bluetooth Service # systemctl start bluetooth.service Start bluetoothctl # bluetoothctl This will start an interactive prompt.
-# exit to exit
-Enter Scan # scan on to begin looking for devices to pair.
-Pair You can highlight the mac address of the device you want to pair then:
-ctrl+shift+c to copy it to the clipboard. then type</description>
     </item>
   </channel>
 </rss>
