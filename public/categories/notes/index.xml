@@ -9,10 +9,22 @@
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
       <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
-    <generator>Hugo -- 0.128.2</generator>
+    <generator>Hugo -- 0.131.0</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 17 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Arch- wifi</title>
+      <link>http://localhost:1313/notes/arch-wifi/</link>
+      <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/arch-wifi/</guid>
+      <description>Make Sure Packages Are Installed Network Manager is the most simple network utility that I have found.
+Start/Enable Network Manager Service If you haven&amp;rsquo;t yet you can enter:
+# systemctl start NetworkManager.service to start the network manager daemon.
+Start Network Manager You can use the curses tui:
+# nmtui and use the menus to create/activate a new connection. or you can use the cli:
+# nmcli device wifi list to scan for networks # nmcli device wifi connect &amp;lt;SSID_or_BSSID&amp;gt; password &amp;lt;password&amp;gt; to connect to a network.</description>
+    </item>
     <item>
       <title>Arch- Connect BlueTooth</title>
       <link>http://localhost:1313/notes/arch-bluetooth/</link>
@@ -36,13 +48,6 @@ Commit changes locally git commit -m &amp;#34;Commit message here&amp;#34; Creat
 Push changes to remote git push origin &amp;lt;branch name&amp;gt; To push to remote named &amp;lsquo;origin&amp;rsquo; and the branch name.
 Add Remote (for github)
 Create new repository on github.com ensure that repository is set up locally stage and add a commit make sure local repo is on correct branch e.</description>
-    </item>
-    <item>
-      <title>hello note</title>
-      <link>http://localhost:1313/notes/arch-wifi/</link>
-      <pubDate>Tue, 15 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/arch-wifi/</guid>
-      <description>hello world gp to go back.</description>
     </item>
   </channel>
 </rss>

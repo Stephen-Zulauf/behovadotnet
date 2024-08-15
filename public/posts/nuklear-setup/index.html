@@ -1,0 +1,65 @@
+<!doctype html><html lang=en dir=auto><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="noindex, nofollow"><title>Nuklear GUI Setup using CMake | behova.net</title>
+<meta name=keywords content="Nuklear,CMake,C,C++"><meta name=description content="Intro Nuklear Is a really cool library for programing Graphical User Interfaces (GUIs) using C or C++. The library itself is written in &lsquo;pure&rsquo; C but, the best part about it: it&rsquo;s a single header file. That means no installation, no weird dlls, just copy the nuklear.h into your project and include it.
+Unfortunately this simplicity is a bit deceptive, as you need to know a bit about the library and what its doing before you can actually even get started with it."><meta name=author content="behoovah"><link rel=canonical href=http://localhost:1313/posts/nuklear-setup/><link crossorigin=anonymous href=/assets/css/stylesheet.fc220c15db4aef0318bbf30adc45d33d4d7c88deff3238b23eb255afdc472ca6.css integrity="sha256-/CIMFdtK7wMYu/MK3EXTPU18iN7/MjiyPrJVr9xHLKY=" rel="preload stylesheet" as=style><link rel=icon href=http://localhost:1313/favicons/favicon.ico><link rel=icon type=image/png sizes=16x16 href=http://localhost:1313/favicons/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=http://localhost:1313/favicons/favicon-32x32.png><link rel=apple-touch-icon href=http://localhost:1313/favicons/apple-touch-icon.png><link rel=mask-icon href=http://localhost:1313/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate hreflang=en href=http://localhost:1313/posts/nuklear-setup/><noscript><style>#theme-toggle,.top-link{display:none}</style></noscript><script id=MathJax-script async src=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js></script><script>MathJax={tex:{displayMath:[["\\[","\\]"],["$$","$$"]],inlineMath:[["\\(","\\)"]]}}</script></head><body class=dark id=top><header class=header><nav class=nav><div class=logo><a href=http://localhost:1313/ accesskey=h title="behova.net (Alt + H)"><img src=http://localhost:1313/cow.gif alt aria-label=logo height=35>behova.net</a><div class=logo-switches></div></div><ul id=menu><li><a href=http://localhost:1313/tags/ title=tags><span>tags</span></a></li><li><a href=http://localhost:1313/notes/ title=notes><span>notes</span></a></li><li><a href=http://localhost:1313/posts/ title=posts><span>posts</span></a></li></ul></nav></header><main class=main><article class=post-single><header class=post-header><h1 class="post-title entry-hint-parent">Nuklear GUI Setup using CMake</h1></header><div class=toc><details><summary accesskey=c title="(Alt + C)"><span class=details>Table of Contents</span></summary><div class=inner><nav id=TableOfContents><ul><li><a href=#intro>Intro</a></li><li><a href=#create-project-folder>Create Project Folder</a></li><li><a href=#copy-files>Copy Files</a></li><li><a href=#modify-example-files>Modify Example Files</a></li><li><a href=#create-cmakelists>Create CMakeLists</a></li><li><a href=#test>Test</a></li><li><a href=#congrats>Congrats</a></li></ul></nav></div></details></div><div class=post-content><h2 id=intro>Intro<a hidden class=anchor aria-hidden=true href=#intro>#</a></h2><p><a href=https://github.com/Immediate-Mode-UI/Nuklear>Nuklear</a> Is a really cool library for programing
+Graphical User Interfaces (GUIs) using C or C++. The library itself is written in &lsquo;pure&rsquo; C but,
+the best part about it: <em>it&rsquo;s a single header file</em>. That means no installation, no weird dlls,
+just copy the nuklear.h into your project and include it.</p><p>Unfortunately this simplicity is a bit deceptive, as you need to know a bit about the library and
+what its doing before you can actually even get started with it.</p><p>I thought I would make a quick post about how I was able to get an example from the
+<a href=https://github.com/Immediate-Mode-UI/Nuklear/tree/master/demo>Nuklear demos folder</a> compiling and running
+using cmake and in a linux environment.</p><p><strong>You will need to have a couple of things set-up to follow along</strong>:</p><ul><li><a href=https://wiki.libsdl.org/SDL2/Installation>SDL2</a> (SDL is usually included with most linux distros)</li><li><a href=https://cmake.org/>CMake</a> (CMake will create a makefile for us. Most linux distros have a cmake package available)</li></ul><p><strong>Why SDL??</strong></p><p>Nuklear is <em>back-end agnostic</em> meaning that it doesn&rsquo;t actually draw anything directly but uses whatever back-end
+you tell it to. Examples of different Nuklear back-ends can be found on the
+<a href=https://github.com/Immediate-Mode-UI/Nuklear/tree/master/demo>Nuklear Github</a>. OpenGL, SFML, SDL/opengl are
+options but for simplicity in this post, I am just going to use the example for SDL2 using its built-in renderer.
+This way we can avoid adding more dependencies such as GLAD etc.</p><h2 id=create-project-folder>Create Project Folder<a hidden class=anchor aria-hidden=true href=#create-project-folder>#</a></h2><p>You can really do this a lot of different ways. For this example I&rsquo;m going to create the following
+structure inside of a directory called <code>nuke-test</code>:</p><pre tabindex=0><code>├── src
+│   ├── main.c
+├── include
+│   ├── nuklear.h
+│   ├── nuklear_sdl_renderer.h
+│   
+└── CMakeLists.txt
+</code></pre><h2 id=copy-files>Copy Files<a hidden class=anchor aria-hidden=true href=#copy-files>#</a></h2><p>Go to the <a href=https://github.com/Immediate-Mode-UI/Nuklear/tree/master/demo/sdl_renderer>Nuklear sdl_renderer demo</a>
+folder and copy the <code>main.c</code> file into the src directory.</p><p>Next copy the <code>nuklear_sdl_renderer.h</code> into the include directory.</p><p>Then go to <a href=https://github.com/Immediate-Mode-UI/Nuklear/tree/master>Nuklear main branch</a>
+and copy the <code>nuklear.h</code> file into the include directory.</p><h2 id=modify-example-files>Modify Example Files<a hidden class=anchor aria-hidden=true href=#modify-example-files>#</a></h2><p>In <code>nuklear_sdl_renderer.h</code> you will need to include the Nuklear library so that it can find the definitions add:</p><pre tabindex=0><code>#include &#34;nuklear.h&#34;
+</code></pre><p>Also in <code>nulear_sdl_renderer.h</code> you will find a line:</p><pre tabindex=0><code>#define NK_SDL_RENDERER_SDL_H &lt;SDL.h&gt;
+</code></pre><p>(for me its on line 16). Depending on where SDL is installed on your system you may need to change this line.
+for me I changed it to:</p><pre tabindex=0><code>#define NK_SDL_RENDERER_SDL_H &lt;SDL2/SDL.h&gt;
+</code></pre><p>In <code>main.c</code> you will find these two lines near line number 25:</p><pre tabindex=0><code>#include &#34;../../nuklear.h&#34;
+#include &#34;nuklear_sdl_renderer.h&#34;
+</code></pre><p>We dont need to include <code>nuklear.h</code> again because it is included with <code>nuklear_sdl_renderer.h</code> so we can delete that line
+and replace the second line with the proper path to our <code>nuklear_sdl_renderer.h</code>:</p><pre tabindex=0><code>#include &#34;../include/nuklear_sdl_renderer.h&#34;
+</code></pre><h2 id=create-cmakelists>Create CMakeLists<a hidden class=anchor aria-hidden=true href=#create-cmakelists>#</a></h2><p>Now we need to make a CMakeLists.txt file in the top directory. This will tell CMake how to go about creating a makefile. This is
+a pretty straightforward config, we just need to make sure that SDL can be found and that the math library is included:</p><pre tabindex=0><code>#minimum required cmake version
+#cmake --version
+
+cmake_minimum_required(VERSION 3.2)
+
+#set project name
+project (NUKE_TEST)
+
+find_package(SDL2 REQUIRED)
+
+#create sources variable
+set(SOURCES
+  src/main.c
+)
+
+#add excutable with sources
+add_executable(${PROJECT_NAME} ${SOURCES})
+
+target_link_libraries(${PROJECT_NAME} SDL2 m)
+
+#directories included
+target_include_directories(${PROJECT_NAME}
+  PRIVATE
+    ${PROJECT_SOURCE_DIR}/include
+  )
+</code></pre><h2 id=test>Test<a hidden class=anchor aria-hidden=true href=#test>#</a></h2><p>First things first run <code>cmake .</code> in the top directory of the project to initialize cmake,
+and have it create the makefile.</p><p>Next run <code>make</code></p><p>If there are no errors then try running the excutable that is created by typing <code>./NUKE_TEST</code></p><p>If something didn&rsquo;t work try this:</p><ul><li>go over paths/file modifications carefully.</li><li>look for typos</li><li>google compiler error messages and codes.</li></ul><h2 id=congrats>Congrats<a hidden class=anchor aria-hidden=true href=#congrats>#</a></h2><p>If everything worked <em>NICCEEEE</em> now you can play around in <code>main.c</code> and change up the example or create
+your own using the provided backend.</p><p>Of course this is nothing but getting the backend running on a simple example. Part of the cool factor
+of Nuklear is that it is so flexible and customizable. Once you get the hang of it there are countless
+ways to incorporate it into a project.</p><p><a href=../>go back</a>.</p></div><footer class=post-footer><ul class=post-tags><li><a href=http://localhost:1313/tags/nuklear/>Nuklear</a></li><li><a href=http://localhost:1313/tags/cmake/>CMake</a></li><li><a href=http://localhost:1313/tags/c/>C</a></li><li><a href=http://localhost:1313/tags/c++/>C++</a></li></ul></footer></article></main><footer class=footer><span>&copy; 2024 <a href=http://localhost:1313/>behova.net</a></span> ·
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg>
+</a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script></body></html>
