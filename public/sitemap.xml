@@ -8,10 +8,19 @@
     <loc>http://localhost:1313/categories/blog/</loc>
     <lastmod>2024-08-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/tags/c/</loc>
+    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/c&#43;&#43;/</loc>
+    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/categories/</loc>
     <lastmod>2024-08-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/first/</loc>
+    <loc>http://localhost:1313/tags/cmake/</loc>
+    <lastmod>2024-08-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/nuklear/</loc>
     <lastmod>2024-08-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/nuklear-setup/</loc>

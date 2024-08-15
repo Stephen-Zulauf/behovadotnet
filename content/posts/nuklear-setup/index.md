@@ -76,38 +76,57 @@ structure inside of a directory called `nuke-test`:
 ```
 
 ## Copy Files
-Go to the [Nuklear sdl_renderer demo](https://github.com/Immediate-Mode-UI/Nuklear/tree/master/demo/sdl_renderer)
+- Go to the [Nuklear sdl_renderer demo](https://github.com/Immediate-Mode-UI/Nuklear/tree/master/demo/sdl_renderer)
 folder and copy the `main.c` file into the src directory.
 
-Next copy the `nuklear_sdl_renderer.h` into the include directory.
+- Next copy the `nuklear_sdl_renderer.h` into the include directory.
 
-Then go to [Nuklear main branch](https://github.com/Immediate-Mode-UI/Nuklear/tree/master)
+- Then go to [Nuklear main branch](https://github.com/Immediate-Mode-UI/Nuklear/tree/master)
 and copy the `nuklear.h` file into the include directory.
 
 ## Modify Example Files
-In `nuklear_sdl_renderer.h` you will need to include the Nuklear library so that it can find the definitions add:
+We will need to modify two of the example files.
+
+`nuklear_sdl_renderer.h`
+and
+`main.c`
+
+---
+### nuklear_sdl_renderer.h
+
+add:
 ```
 #include "nuklear.h"
 ```
-Also in `nulear_sdl_renderer.h` you will find a line:
+near line 16 change:
 ```
 #define NK_SDL_RENDERER_SDL_H <SDL.h>
 ```
-(for me its on line 16). Depending on where SDL is installed on your system you may need to change this line.
-for me I changed it to:
+to:
 ```
 #define NK_SDL_RENDERER_SDL_H <SDL2/SDL.h>
 ```
-In `main.c` you will find these two lines near line number 25:
+We need to include the nuklear library in the rendering backend header, and when the sdl library is defined
+we need to make sure that the compiler can find where our install is (your path might be different depending on 
+where it is installed).
+
+---
+### main.c
+
+near line 25 change:
 ```
 #include "../../nuklear.h"
 #include "nuklear_sdl_renderer.h"
 ```
-We dont need to include `nuklear.h` again because it is included with `nuklear_sdl_renderer.h` so we can delete that line
-and replace the second line with the proper path to our `nuklear_sdl_renderer.h`:
+to:
 ```
 #include "../include/nuklear_sdl_renderer.h"
 ```
+We dont need to include `nuklear.h` again because it is included with `nuklear_sdl_renderer.h` so we can delete that line
+and replace the second line with the proper path to our `nuklear_sdl_renderer.h`.
+
+---
+
 ## Create CMakeLists
 Now we need to make a CMakeLists.txt file in the top directory. This will tell CMake how to go about creating a makefile. This is 
 a pretty straightforward config, we just need to make sure that SDL can be found and that the math library is included:
@@ -146,9 +165,9 @@ Next run `make`
 
 If there are no errors then try running the excutable that is created by typing `./NUKE_TEST`
 
-If something didn't work try this:
+If it didn't work try this:
 - go over paths/file modifications carefully.
-- look for typos
+- look for typos.
 - google compiler error messages and codes.
 
 ## Congrats

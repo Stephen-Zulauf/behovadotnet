@@ -18,7 +18,8 @@
       <link>http://localhost:1313/posts/nuklear-setup/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/nuklear-setup/</guid>
-      <description>hello world gp to go back.</description>
+      <description>Intro Nuklear Is a really cool library for programing Graphical User Interfaces (GUIs) using C or C++. The library itself is written in &amp;lsquo;pure&amp;rsquo; C but, the best part about it: it&amp;rsquo;s a single header file. That means no installation, no weird dlls, just copy the nuklear.h into your project and include it.
+Unfortunately this simplicity is a bit deceptive, as you need to know a bit about the library and what its doing before you can actually even get started with it.</description>
     </item>
     <item>
       <title>WSU Wireless on Arch Linux</title>
