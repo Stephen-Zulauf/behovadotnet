@@ -11,8 +11,15 @@
     </image>
     <generator>Hugo -- 0.131.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Jul 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Physics Equations with LaTeX Syntax</title>
+      <link>http://localhost:1313/notes/physics-latex/</link>
+      <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/notes/physics-latex/</guid>
+      <description>Motion Equations Velocity Average Velocity $$ \vec{v}=\frac{\Delta \vec{r}}{\Delta t} $$ $$ \vec{v}=\frac{\Delta \vec{r}}{\Delta t} $$ $$ unit: \frac{m}{s} $$ Instant Velocity $$ \vec{v}=\frac{d\vec{r}}{dt} $$ $$ \vec{v}=\frac{d\vec{r}}{dt} $$ $$ unit: \frac{m}{s} $$ Acceleration Average Acceleration $$ \vec{a}=\frac{\Delta \vec{v}}{\Delta t} $$ $$ \vec{a}=\frac{\Delta \vec{v}}{\Delta t} $$ Instant Acceleration $$ \vec{a}=\frac{d\vec{v}}{dt} $$ $$ \vec{a}=\frac{d\vec{v}}{dt} $$ $$ unit: \frac{m}{s^{2}} $$ Non-Uniform Motion Velocity $$ v=\frac{ds}{dt} $$ $$ v=\frac{ds}{dt} $$ $$ \int_{s_i}^{s_f}ds=\int_{t_i}^{t_f}vdt $$ $$ \int_{s_i}^{s_f}ds=\int_{t_i}^{t_f}vdt $$ go back.</description>
+    </item>
     <item>
       <title>Arch- wifi</title>
       <link>http://localhost:1313/notes/arch-wifi/</link>

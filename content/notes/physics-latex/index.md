@@ -1,0 +1,160 @@
+---
+title: "Physics Equations with LaTeX Syntax"
+date: 2024-08-27
+# weight: 1
+# aliases: ["/first"]
+tags: ["LaTeX", "Physics", "Motion", "Equation"]
+categories: ["notes"]
+author: "behoovah"
+# author: ["Me", "You"] # multiple authors
+showToc: true
+TocOpen: false
+draft: false
+hidemeta: true
+comments: false
+# description: "Desc Text."
+# canonicalURL: "https://canonical.url/to/page"
+disableHLJS: true # to disable highlightjs
+disableShare: true
+hideSummary: false
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: false
+ShowPostNavLinks: false
+ShowWordCount: true
+ShowRssButtonInSectionTermList: false
+UseHugoToc: true
+# cover:
+  #  image: "<image path/url>" # image path/url
+  #  alt: "<alt text>" # alt text
+  #  caption: "<text>" # display caption under cover
+  #  relative: false # when using page bundles set this to true
+  #  hidden: true # only hide on current single page
+# editPost:
+  #  URL: "https://github.com/<path_to_repo>/content"
+  #  Text: "Suggest Changes" # edit text
+  #  appendFilePath: true # to append file path to Edit link
+---
+# Motion Equations
+
+## Velocity
+
+### Average Velocity
+$$
+\vec{v}=\frac{\Delta \vec{r}}{\Delta t}
+$$
+```
+$$
+\vec{v}=\frac{\Delta \vec{r}}{\Delta t}
+$$
+```
+$$
+unit: \frac{m}{s}
+$$
+
+### Instant Velocity
+$$
+\vec{v}=\frac{d\vec{r}}{dt}
+$$
+```
+$$
+\vec{v}=\frac{d\vec{r}}{dt}
+$$
+```
+$$
+unit: \frac{m}{s}
+$$
+
+## Acceleration
+### Average Acceleration
+$$
+\vec{a}=\frac{\Delta \vec{v}}{\Delta t}
+$$
+```
+$$
+\vec{a}=\frac{\Delta \vec{v}}{\Delta t}
+$$
+```
+### Instant Acceleration
+$$
+\vec{a}=\frac{d\vec{v}}{dt}
+$$
+```
+$$
+\vec{a}=\frac{d\vec{v}}{dt}
+$$
+```
+$$
+unit: \frac{m}{s^{2}}
+$$
+
+## Non-Uniform Motion
+### Velocity
+$$
+v=\frac{ds}{dt}
+$$
+```
+$$
+v=\frac{ds}{dt}
+$$
+```
+$$
+\int_{s_i}^{s_f}ds=\int_{t_i}^{t_f}vdt
+$$
+```
+$$
+\int_{s_i}^{s_f}ds=\int_{t_i}^{t_f}vdt
+$$
+```
+$$
+s_f-s_i=\Delta s=\int_{t_i}^{t_f}vdt
+$$
+
+```
+$$
+s_f-s_i=\Delta s=\int_{t_i}^{t_f}vdt
+$$
+```
+$$
+s_f=s_it\int_{t_i}^{t_f}vdt
+$$
+```
+$$
+s_f=s_it\int_{t_i}^{t_f}vdt
+$$
+```
+### Acceleration
+$$
+a=\frac{dv}{dt}
+$$
+```
+$$
+a=\frac{dv}{dt}
+$$
+```
+$$
+\int_{t_i}^{t_f}adt=\int_{v_i}^{v_f}dv
+$$
+```
+$$
+\int_{t_i}^{t_f}adt=\int_{v_i}^{v_f}dv
+$$
+```
+$$
+v_f-v_i=\int_{t_i}^{t_f}adt
+$$
+```
+$$
+v_f-v_i=\int_{t_i}^{t_f}adt
+$$
+```
+$$
+v_f=v_i+\int_{t_i}^{t_f}adt
+$$
+```
+$$
+v_f=v_i+\int_{t_i}^{t_f}adt
+$$
+```
+
+[go back](../).
