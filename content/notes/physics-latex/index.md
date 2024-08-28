@@ -157,4 +157,67 @@ v_f=v_i+\int_{t_i}^{t_f}adt
 $$
 ```
 
+## Vectors
+$$
+\vec{A}=\vec{A_x}+\vec{A_y}
+$$
+```
+$$
+\vec{A}=\vec{A_x}+\vec{A_y}
+$$
+```
+### Unit Vectors
+$$
+\hat{i}\parallel x
+$$
+$$
+\hat{j}\parallel y
+$$
+```
+$$
+\hat{i}\parallel x
+$$
+$$
+\hat{j}\parallel y
+$$
+```
+$$
+\vec{A_x}=A_x\hat{i},   
+$$
+$$
+\vec{A_y}=A_y\hat{j}
+$$
+```
+$$
+\vec{A_x}=A_x\hat{i},   
+$$
+$$
+\vec{A_y}=A_y\hat{j}
+$$
+```
+
+$$
+\vec{A}=A_x\hat{i}+A_y\hat{j}
+$$
+```
+$$
+\vec{A}=A_x\vec{i}+A_y\vec{j}
+$$
+```
+### Multiplication
+#### Scaler
+$$
+\beta\vec{A}=\beta(A_x\hat{i}+A_y\hat{j})
+$$
+```
+$$
+\beta\vec{A}=\beta(A_x\hat{i}+A_y\hat{j})
+$$
+```
+#### Dot Product
+$$
+\vec{A}\cdot\vec{B}=
+$$
+#### Cross Product
+
 [go back](../).
