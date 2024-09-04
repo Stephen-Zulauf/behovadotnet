@@ -222,23 +222,13 @@ $$
 $$
 \vec{A}\times\vec{B}=\vec{C}
 $$
-```
-$$
-\vec{A}\times\vec{B}=\vec{C}
-$$
-```
 $$
 |\vec{A}\times\vec{B}|=|\vec{A}||\vec{B}|sin(\alpha)=|\vec{C}|
 $$
-```
 $$
-|\vec{A}\times\vec{B}|=|\vec{A}||\vec{B}|sin(\alpha)=|\vec{C}|
+\odot :out of plane
+\otimes :into plane
 $$
-```
-
-\(\odot\) : out of plane
-\(\otimes\) : into plane
-
 $$
 if \vec{A}\parallel\vec{B} then \vec{C}=0
 $$
@@ -250,16 +240,16 @@ Two deminsional: x&y motions(vertical and horizontal)
 
 Smooth line graph-looks like an arc.
 
-### Postion(vec) vs. Time(Scaler).
+Postion(vec) vs. Time(Scaler).
 
 $$
 \vec{r}=x\hat{i}+y\hat{j}
 $$
-### velocity
+velocity
 $$
 \vec{v}=\frac{d\vec{r}}{dt}=\frac{dx}{dt}\hat{i}+\frac{dy}{dt}\hat{j}
 $$
-### Direction of Velocity?
+Direction of Velocity?
 e.g.
 $$
 \vec{v}=6\hat{i}+3\hat{j}
@@ -270,101 +260,9 @@ tan(\theta)=\frac{1}{2}
 $$
 so
 $$
-\theta = tan^-1 \frac{1}{2}
-$$
-slope of the trajectory arc (direction tangent to trajectory curve)
-$$
-tan(\theta)=\frac{\frac{dy}{dt}}{\frac{dx}{dt}}=\frac{dy}{dx}
+\theta = tan^-1\frac{1}{2}
 $$
 
-## Projectile motion
-(No force other than gravity)
-
-**Treat X & Y motions seperately**.
-
----
-how fast it moves in the x direction has
-no effect on motion in Y direction, and vice versa.
-
-Y motion determines the time duration of the projectile motion.
-
-**X motion**: constant velocity 
-
-**Y motion**: free fall 
-
----
-
-## Projectile Motion PT.2
----
-A ball(B) is launched with initial speed of \(V_o\) the launch of
-angle \(\theta\) can be varied. Determine \(\theta\) when l B is the largest
-
-x-motion: uniform motion
-
-$$
-l=v_x, \Delta t
-$$
-
-\(\Delta t\): time of travel; \(V_x\) is a constant.
-$$
-V_x=V_0cos\theta
-$$
-$$
-l=V_0cos\theta\Delta t
-$$
-
----
-If we can write \(l=f(\theta)\):
-$$
-\frac{df(\theta)}{d\theta}=0
-$$
-$$
-f'(\theta)=0->
-$$
-solve for
-$$
-\theta
-$$
-Goal: to express \(\Delta t\) as a function of \(\theta\).
-
-y-motion: Constant acceleration.(force of gravity)
-$$
-a_y=a_g=9.8m/s^2
-$$
-needed equations:
-$$
-V_(yf)=V_(yi)+a_y\Delta t
-$$
-$$
-V_(yf^2)+2a_y\Delta y
-$$
-$$
-\Delta y = V_yi \Delta t t \frac{1}{2}a_y \Delta t^2
-$$
-Use the third equation..
-
----
-
-## Relative Motion
-
-We discuss only uniform motions here.
-
-eg. from c's perspective speed of B=1m/s
-From A's perspective speed of B?
-(3m/s)
-speed of C=2m/s
-
-Perspective = ***Reference Frame***
-
-Nothing can move faster than the speed of light.
-SO keeping it low speed.
-### Reference Frame
-
-Coordinate system where postion and velocity are measured.
-
-Earth is the most important reference frame.
-
-\(s'\) is another reference frame(e.g bus, boat etc.)
 
 
 

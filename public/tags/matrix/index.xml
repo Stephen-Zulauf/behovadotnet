@@ -18,7 +18,7 @@
       <link>http://localhost:1313/notes/linear-latex/</link>
       <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notes/linear-latex/</guid>
-      <description>gp to go back.</description>
+      <description>Matrices $$ \begin{matrix} a &amp;b \\ c &amp;d \end{matrix} $$ $$ \begin{matrix} a &amp;amp;b \\ c &amp;amp;d \end{matrix} $$ $$ \begin{pmatrix} a &amp;b \\ c &amp;d \end{pmatrix} $$ $$ \begin{pmatrix} a &amp;amp;b \\ c &amp;amp;d \end{pmatrix} $$ $$ \begin{bmatrix} a &amp;b \\ c &amp;d \end{bmatrix} $$ $$ \begin{bmatrix} a &amp;amp;b \\ c &amp;amp;d \end{bmatrix} $$ $$ \begin{vmatrix} a &amp;b \\ c &amp;d \end{vmatrix} $$ $$ \begin{vmatrix} a &amp;amp;b \\ c &amp;amp;d \end{vmatrix} $$ $$ \begin{Vmatrix} a &amp;b \\ c &amp;d \end{Vmatrix} $$ $$ \begin{Vmatrix} a &amp;amp;b \\ c &amp;amp;d \end{Vmatrix} $$ go back.</description>
     </item>
   </channel>
 </rss>
