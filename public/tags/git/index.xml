@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on behova.net</title>
-    <link>http://localhost:1313/tags/git/</link>
+    <link>https://behova.net/tags/git/</link>
     <description>Recent content in Git on behova.net</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 11 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://behova.net/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Git and Github</title>
-      <link>http://localhost:1313/notes/git-github/</link>
+      <link>https://behova.net/notes/git-github/</link>
       <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/git-github/</guid>
+      <guid>https://behova.net/notes/git-github/</guid>
       <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;new-repo&#34;&gt;New Repo&lt;/h2&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git init&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to create new repo in directory.&lt;/p&gt;&#xA;&lt;h2 id=&#34;commit-proccess&#34;&gt;Commit Proccess&lt;/h2&gt;&#xA;&lt;h3 id=&#34;add-new-files&#34;&gt;Add new files&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git add .&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To stage all files in directory.&lt;/p&gt;&#xA;&lt;h3 id=&#34;commit-changes-locally&#34;&gt;Commit changes locally&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git commit -m &amp;#34;Commit message here&amp;#34;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Create new commit with message.&lt;/p&gt;&#xA;&lt;h3 id=&#34;push-changes-to-remote&#34;&gt;Push changes to remote&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git push origin &amp;lt;branch name&amp;gt;&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;To push to remote named &amp;lsquo;origin&amp;rsquo;&#xA;and the branch name.&lt;/p&gt;&#xA;&lt;h2 id=&#34;add-remote&#34;&gt;Add Remote&lt;/h2&gt;&#xA;&lt;p&gt;(for github)&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Create new repository on github.com&lt;/li&gt;&#xA;&lt;li&gt;ensure that repository is set up&#xA;locally&lt;/li&gt;&#xA;&lt;li&gt;stage and add a commit&lt;/li&gt;&#xA;&lt;li&gt;make sure local repo is on correct&#xA;branch e.g. :&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git branch -M main&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;&#xA;&lt;li&gt;add remote branch&#xA;e.g. for ssh:&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;git remote add origin git@github.com:Stephen-Zulauf/notes.git&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;or for http:&lt;/p&gt;</description>
     </item>
   </channel>

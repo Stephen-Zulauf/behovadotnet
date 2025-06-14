@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>C on behova.net</title>
-    <link>http://localhost:1313/tags/c/</link>
+    <link>https://behova.net/tags/c/</link>
     <description>Recent content in C on behova.net</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 14 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/c/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://behova.net/tags/c/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nuklear GUI Setup using CMake</title>
-      <link>http://localhost:1313/posts/nuklear-setup/</link>
+      <link>https://behova.net/posts/nuklear-setup/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/nuklear-setup/</guid>
+      <guid>https://behova.net/posts/nuklear-setup/</guid>
       <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/Immediate-Mode-UI/Nuklear&#34;&gt;Nuklear&lt;/a&gt; Is a really cool library for programing&#xA;Graphical User Interfaces (GUIs) using C or C++. The library itself is written in &amp;lsquo;pure&amp;rsquo; C but,&#xA;the best part about it: &lt;em&gt;it&amp;rsquo;s a single header file&lt;/em&gt;. That means no installation, no weird dlls,&#xA;just copy the nuklear.h into your project and include it.&lt;/p&gt;&#xA;&lt;p&gt;Unfortunately this simplicity is a bit deceptive, as you need to know a bit about the library and&#xA;what its doing before you can actually even get started with it.&lt;/p&gt;</description>
     </item>
   </channel>

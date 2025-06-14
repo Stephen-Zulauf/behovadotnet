@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linear on behova.net</title>
-    <link>http://localhost:1313/tags/linear/</link>
+    <link>https://behova.net/tags/linear/</link>
     <description>Recent content in Linear on behova.net</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/linear/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://behova.net/tags/linear/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linear Algebra/Matrixes with LaTeX</title>
-      <link>http://localhost:1313/notes/linear-latex/</link>
+      <link>https://behova.net/notes/linear-latex/</link>
       <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/linear-latex/</guid>
+      <guid>https://behova.net/notes/linear-latex/</guid>
       <description>&lt;h2 id=&#34;matrices&#34;&gt;Matrices&lt;/h2&gt;&#xA;$$&#xA;\begin{matrix}&#xA; a &amp;b \\&#xA; c &amp;d&#xA;\end{matrix}&#xA;$$&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$$&#xA;\begin{matrix}&#xA; a &amp;amp;b \\&#xA; c &amp;amp;d&#xA;\end{matrix}&#xA;$$&#xA;&lt;/code&gt;&lt;/pre&gt;$$&#xA;\begin{pmatrix}&#xA; a &amp;b \\&#xA; c &amp;d&#xA;\end{pmatrix}&#xA;$$&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$$&#xA;\begin{pmatrix}&#xA; a &amp;amp;b \\&#xA; c &amp;amp;d&#xA;\end{pmatrix}&#xA;$$&#xA;&lt;/code&gt;&lt;/pre&gt;$$&#xA;\begin{bmatrix}&#xA; a &amp;b \\&#xA; c &amp;d&#xA;\end{bmatrix}&#xA;$$&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$$&#xA;\begin{bmatrix}&#xA; a &amp;amp;b \\&#xA; c &amp;amp;d&#xA;\end{bmatrix}&#xA;$$&#xA;&lt;/code&gt;&lt;/pre&gt;$$&#xA;\begin{vmatrix}&#xA; a &amp;b \\&#xA; c &amp;d&#xA;\end{vmatrix}&#xA;$$&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$$&#xA;\begin{vmatrix}&#xA; a &amp;amp;b \\&#xA; c &amp;amp;d&#xA;\end{vmatrix}&#xA;$$&#xA;&lt;/code&gt;&lt;/pre&gt;$$&#xA;\begin{Vmatrix}&#xA; a &amp;b \\&#xA; c &amp;d&#xA;\end{Vmatrix}&#xA;$$&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$$&#xA;\begin{Vmatrix}&#xA; a &amp;amp;b \\&#xA; c &amp;amp;d&#xA;\end{Vmatrix}&#xA;$$&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href=&#34;../&#34;&gt;go back&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>

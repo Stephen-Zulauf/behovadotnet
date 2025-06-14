@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wireless on behova.net</title>
-    <link>http://localhost:1313/tags/wireless/</link>
+    <link>https://behova.net/tags/wireless/</link>
     <description>Recent content in Wireless on behova.net</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 17 Jul 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/wireless/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://behova.net/tags/wireless/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Arch- wifi</title>
-      <link>http://localhost:1313/notes/arch-wifi/</link>
+      <link>https://behova.net/notes/arch-wifi/</link>
       <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/notes/arch-wifi/</guid>
+      <guid>https://behova.net/notes/arch-wifi/</guid>
       <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;make-sure-packages-are-installed&#34;&gt;Make Sure Packages Are Installed&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/title/NetworkManager&#34;&gt;Network Manager&lt;/a&gt; is the most simple network utility&#xA;that I have found.&lt;/p&gt;&#xA;&lt;h2 id=&#34;startenable-network-manager-service&#34;&gt;Start/Enable Network Manager Service&lt;/h2&gt;&#xA;&lt;p&gt;If you haven&amp;rsquo;t yet you can enter:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# systemctl start NetworkManager.service&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to start the network manager daemon.&lt;/p&gt;&#xA;&lt;h2 id=&#34;start-network-manager&#34;&gt;Start Network Manager&lt;/h2&gt;&#xA;&lt;p&gt;You can use the curses tui:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# nmtui&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;and use the menus to create/activate a new connection.&#xA;or you can use the cli:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;# nmcli device wifi list&lt;/code&gt; to scan for networks&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;# nmcli device wifi connect &amp;lt;SSID_or_BSSID&amp;gt; password &amp;lt;password&amp;gt;&lt;/code&gt; to connect to a network.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;ping www.google.com&lt;/code&gt; to test the connection.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;see the &lt;a href=&#34;https://wiki.archlinux.org/title/NetworkManager#Usage&#34;&gt;arch wiki&lt;/a&gt; for a detailed list&#xA;of nmcli commands.&lt;/p&gt;</description>
     </item>
     <item>
       <title>WSU Wireless on Arch Linux</title>
-      <link>http://localhost:1313/posts/wsu-wireless/</link>
+      <link>https://behova.net/posts/wsu-wireless/</link>
       <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/wsu-wireless/</guid>
+      <guid>https://behova.net/posts/wsu-wireless/</guid>
       <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve found a way to connect my Arch-Linux laptop to the WSU WIFI reliably.&#xA;Since I had a bit of difficulty figuring this out on my own I thought I would document it here.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m assuming you already have wifi capability set-up, and have connected to other networks.&#xA;I am using &lt;a href=&#34;https://wiki.archlinux.org/title/NetworkManager&#34;&gt;Network Manager&lt;/a&gt;, with the &lt;code&gt;nmcli&lt;/code&gt; command to&#xA;connect to networks normally. But I found it&amp;rsquo;s easier to use &lt;code&gt;nmtui&lt;/code&gt;, when dealing with networks that&#xA;require a username and a password.&lt;/p&gt;</description>
     </item>
   </channel>

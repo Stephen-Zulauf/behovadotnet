@@ -2,199 +2,199 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on behova.net</title>
-    <link>http://localhost:1313/tags/</link>
+    <link>https://behova.net/tags/</link>
     <description>Recent content in Tags on behova.net</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://behova.net/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Algebra</title>
-      <link>http://localhost:1313/tags/algebra/</link>
+      <link>https://behova.net/tags/algebra/</link>
       <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/algebra/</guid>
+      <guid>https://behova.net/tags/algebra/</guid>
       <description></description>
     </item>
     <item>
       <title>LaTex</title>
-      <link>http://localhost:1313/tags/latex/</link>
+      <link>https://behova.net/tags/latex/</link>
       <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/latex/</guid>
+      <guid>https://behova.net/tags/latex/</guid>
       <description></description>
     </item>
     <item>
       <title>Linear</title>
-      <link>http://localhost:1313/tags/linear/</link>
+      <link>https://behova.net/tags/linear/</link>
       <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/linear/</guid>
+      <guid>https://behova.net/tags/linear/</guid>
       <description></description>
     </item>
     <item>
       <title>Matrices</title>
-      <link>http://localhost:1313/tags/matrices/</link>
+      <link>https://behova.net/tags/matrices/</link>
       <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/matrices/</guid>
+      <guid>https://behova.net/tags/matrices/</guid>
       <description></description>
     </item>
     <item>
       <title>Matrix</title>
-      <link>http://localhost:1313/tags/matrix/</link>
+      <link>https://behova.net/tags/matrix/</link>
       <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/matrix/</guid>
+      <guid>https://behova.net/tags/matrix/</guid>
       <description></description>
     </item>
     <item>
       <title>Equation</title>
-      <link>http://localhost:1313/tags/equation/</link>
+      <link>https://behova.net/tags/equation/</link>
       <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/equation/</guid>
+      <guid>https://behova.net/tags/equation/</guid>
       <description></description>
     </item>
     <item>
       <title>Motion</title>
-      <link>http://localhost:1313/tags/motion/</link>
+      <link>https://behova.net/tags/motion/</link>
       <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/motion/</guid>
+      <guid>https://behova.net/tags/motion/</guid>
       <description></description>
     </item>
     <item>
       <title>Physics</title>
-      <link>http://localhost:1313/tags/physics/</link>
+      <link>https://behova.net/tags/physics/</link>
       <pubDate>Tue, 27 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/physics/</guid>
+      <guid>https://behova.net/tags/physics/</guid>
       <description></description>
     </item>
     <item>
       <title>C</title>
-      <link>http://localhost:1313/tags/c/</link>
+      <link>https://behova.net/tags/c/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/c/</guid>
+      <guid>https://behova.net/tags/c/</guid>
       <description></description>
     </item>
     <item>
       <title>C&#43;&#43;</title>
-      <link>http://localhost:1313/tags/c&#43;&#43;/</link>
+      <link>https://behova.net/tags/c&#43;&#43;/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/c&#43;&#43;/</guid>
+      <guid>https://behova.net/tags/c&#43;&#43;/</guid>
       <description></description>
     </item>
     <item>
       <title>CMake</title>
-      <link>http://localhost:1313/tags/cmake/</link>
+      <link>https://behova.net/tags/cmake/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/cmake/</guid>
+      <guid>https://behova.net/tags/cmake/</guid>
       <description></description>
     </item>
     <item>
       <title>Nuklear</title>
-      <link>http://localhost:1313/tags/nuklear/</link>
+      <link>https://behova.net/tags/nuklear/</link>
       <pubDate>Wed, 14 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/nuklear/</guid>
+      <guid>https://behova.net/tags/nuklear/</guid>
       <description></description>
     </item>
     <item>
       <title>Arch</title>
-      <link>http://localhost:1313/tags/arch/</link>
+      <link>https://behova.net/tags/arch/</link>
       <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/arch/</guid>
+      <guid>https://behova.net/tags/arch/</guid>
       <description></description>
     </item>
     <item>
       <title>Connect</title>
-      <link>http://localhost:1313/tags/connect/</link>
+      <link>https://behova.net/tags/connect/</link>
       <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/connect/</guid>
+      <guid>https://behova.net/tags/connect/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>http://localhost:1313/tags/linux/</link>
+      <link>https://behova.net/tags/linux/</link>
       <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/linux/</guid>
+      <guid>https://behova.net/tags/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Wifi</title>
-      <link>http://localhost:1313/tags/wifi/</link>
+      <link>https://behova.net/tags/wifi/</link>
       <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/wifi/</guid>
+      <guid>https://behova.net/tags/wifi/</guid>
       <description></description>
     </item>
     <item>
       <title>Wireless</title>
-      <link>http://localhost:1313/tags/wireless/</link>
+      <link>https://behova.net/tags/wireless/</link>
       <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/wireless/</guid>
+      <guid>https://behova.net/tags/wireless/</guid>
       <description></description>
     </item>
     <item>
       <title>WSU</title>
-      <link>http://localhost:1313/tags/wsu/</link>
+      <link>https://behova.net/tags/wsu/</link>
       <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/wsu/</guid>
+      <guid>https://behova.net/tags/wsu/</guid>
       <description></description>
     </item>
     <item>
       <title>Blue-Tooth</title>
-      <link>http://localhost:1313/tags/blue-tooth/</link>
+      <link>https://behova.net/tags/blue-tooth/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/blue-tooth/</guid>
+      <guid>https://behova.net/tags/blue-tooth/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>http://localhost:1313/tags/git/</link>
+      <link>https://behova.net/tags/git/</link>
       <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/git/</guid>
+      <guid>https://behova.net/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>GitHub</title>
-      <link>http://localhost:1313/tags/github/</link>
+      <link>https://behova.net/tags/github/</link>
       <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/github/</guid>
+      <guid>https://behova.net/tags/github/</guid>
       <description></description>
     </item>
     <item>
       <title>HTML</title>
-      <link>http://localhost:1313/tags/html/</link>
+      <link>https://behova.net/tags/html/</link>
       <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/html/</guid>
+      <guid>https://behova.net/tags/html/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://localhost:1313/tags/hugo/</link>
+      <link>https://behova.net/tags/hugo/</link>
       <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/hugo/</guid>
+      <guid>https://behova.net/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Markdown</title>
-      <link>http://localhost:1313/tags/markdown/</link>
+      <link>https://behova.net/tags/markdown/</link>
       <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/markdown/</guid>
+      <guid>https://behova.net/tags/markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>MathJax</title>
-      <link>http://localhost:1313/tags/mathjax/</link>
+      <link>https://behova.net/tags/mathjax/</link>
       <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/mathjax/</guid>
+      <guid>https://behova.net/tags/mathjax/</guid>
       <description></description>
     </item>
     <item>
       <title>PaperMod</title>
-      <link>http://localhost:1313/tags/papermod/</link>
+      <link>https://behova.net/tags/papermod/</link>
       <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/papermod/</guid>
+      <guid>https://behova.net/tags/papermod/</guid>
       <description></description>
     </item>
     <item>
       <title>Static-Site</title>
-      <link>http://localhost:1313/tags/static-site/</link>
+      <link>https://behova.net/tags/static-site/</link>
       <pubDate>Thu, 09 Jul 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/tags/static-site/</guid>
+      <guid>https://behova.net/tags/static-site/</guid>
       <description></description>
     </item>
   </channel>
