@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>WSU on behova.net</title>
     <link>http://localhost:1313/tags/wsu/</link>
     <description>Recent content in WSU on behova.net</description>
-    <image>
-      <title>behova.net</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.131.0</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 17 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/wsu/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +13,7 @@
       <link>http://localhost:1313/posts/wsu-wireless/</link>
       <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/wsu-wireless/</guid>
-      <description>Intro I&amp;rsquo;ve found a way to connect my Arch-Linux laptop to the WSU WIFI reliably. Since I had a bit of difficulty figuring this out on my own I thought I would document it here.
-I&amp;rsquo;m assuming you already have wifi capability set-up, and have connected to other networks. I am using Network Manager, with the nmcli command to connect to networks normally. But I found it&amp;rsquo;s easier to use nmtui, when dealing with networks that require a username and a password.</description>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;I&amp;rsquo;ve found a way to connect my Arch-Linux laptop to the WSU WIFI reliably.&#xA;Since I had a bit of difficulty figuring this out on my own I thought I would document it here.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m assuming you already have wifi capability set-up, and have connected to other networks.&#xA;I am using &lt;a href=&#34;https://wiki.archlinux.org/title/NetworkManager&#34;&gt;Network Manager&lt;/a&gt;, with the &lt;code&gt;nmcli&lt;/code&gt; command to&#xA;connect to networks normally. But I found it&amp;rsquo;s easier to use &lt;code&gt;nmtui&lt;/code&gt;, when dealing with networks that&#xA;require a username and a password.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

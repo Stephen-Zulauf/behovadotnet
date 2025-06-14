@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Connect on behova.net</title>
     <link>http://localhost:1313/tags/connect/</link>
     <description>Recent content in Connect on behova.net</description>
-    <image>
-      <title>behova.net</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.131.0</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 17 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/connect/index.xml" rel="self" type="application/rss+xml" />
@@ -18,24 +13,14 @@
       <link>http://localhost:1313/notes/arch-wifi/</link>
       <pubDate>Wed, 17 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notes/arch-wifi/</guid>
-      <description>Make Sure Packages Are Installed Network Manager is the most simple network utility that I have found.
-Start/Enable Network Manager Service If you haven&amp;rsquo;t yet you can enter:
-# systemctl start NetworkManager.service to start the network manager daemon.
-Start Network Manager You can use the curses tui:
-# nmtui and use the menus to create/activate a new connection. or you can use the cli:
-# nmcli device wifi list to scan for networks # nmcli device wifi connect &amp;lt;SSID_or_BSSID&amp;gt; password &amp;lt;password&amp;gt; to connect to a network.</description>
+      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;make-sure-packages-are-installed&#34;&gt;Make Sure Packages Are Installed&lt;/h2&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://wiki.archlinux.org/title/NetworkManager&#34;&gt;Network Manager&lt;/a&gt; is the most simple network utility&#xA;that I have found.&lt;/p&gt;&#xA;&lt;h2 id=&#34;startenable-network-manager-service&#34;&gt;Start/Enable Network Manager Service&lt;/h2&gt;&#xA;&lt;p&gt;If you haven&amp;rsquo;t yet you can enter:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# systemctl start NetworkManager.service&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to start the network manager daemon.&lt;/p&gt;&#xA;&lt;h2 id=&#34;start-network-manager&#34;&gt;Start Network Manager&lt;/h2&gt;&#xA;&lt;p&gt;You can use the curses tui:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# nmtui&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;and use the menus to create/activate a new connection.&#xA;or you can use the cli:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;# nmcli device wifi list&lt;/code&gt; to scan for networks&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;# nmcli device wifi connect &amp;lt;SSID_or_BSSID&amp;gt; password &amp;lt;password&amp;gt;&lt;/code&gt; to connect to a network.&lt;/li&gt;&#xA;&lt;li&gt;&lt;code&gt;ping www.google.com&lt;/code&gt; to test the connection.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;see the &lt;a href=&#34;https://wiki.archlinux.org/title/NetworkManager#Usage&#34;&gt;arch wiki&lt;/a&gt; for a detailed list&#xA;of nmcli commands.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Arch- Connect BlueTooth</title>
       <link>http://localhost:1313/notes/arch-bluetooth/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notes/arch-bluetooth/</guid>
-      <description>Make sure Packages are Installed Bluez and bluez-utils are required for bluetooth ctl.
-Start/Enable Bluetooth Service # systemctl start bluetooth.service Start bluetoothctl # bluetoothctl This will start an interactive prompt.
-# exit to exit
-Enter Scan # scan on to begin looking for devices to pair.
-Pair You can highlight the mac address of the device you want to pair then:
-ctrl+shift+c to copy it to the clipboard. then type</description>
+      <description>&lt;h3 id=&#34;make-sure-packages-are-installed&#34;&gt;Make sure Packages are Installed&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://archlinux.org/packages/?name=bluez&#34;&gt;Bluez&lt;/a&gt; and &lt;a href=&#34;https://archlinux.org/packages/?name=bluez-utils&#34;&gt;bluez-utils&lt;/a&gt;&#xA;are required for bluetooth ctl.&lt;/p&gt;&#xA;&lt;h3 id=&#34;startenable-bluetooth-service&#34;&gt;Start/Enable Bluetooth Service&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# systemctl start bluetooth.service&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;start-bluetoothctl&#34;&gt;Start bluetoothctl&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# bluetoothctl&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This will start an interactive prompt.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# exit&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to exit&lt;/p&gt;&#xA;&lt;h3 id=&#34;enter-scan&#34;&gt;Enter Scan&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# scan on&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to begin looking for devices to pair.&lt;/p&gt;&#xA;&lt;h3 id=&#34;pair&#34;&gt;Pair&lt;/h3&gt;&#xA;&lt;p&gt;You can highlight the mac address of the device you want to pair&#xA;then:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ctrl+shift+c&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to copy it to the clipboard.&#xA;then type&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# pair ctrl+shift+v&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to copy in the mac address. once this is successful move onto the next step.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

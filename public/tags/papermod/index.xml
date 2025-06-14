@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>PaperMod on behova.net</title>
     <link>http://localhost:1313/tags/papermod/</link>
     <description>Recent content in PaperMod on behova.net</description>
-    <image>
-      <title>behova.net</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.131.0</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 11 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/papermod/index.xml" rel="self" type="application/rss+xml" />
@@ -18,8 +13,7 @@
       <link>http://localhost:1313/posts/hugo-setup/</link>
       <pubDate>Thu, 11 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/hugo-setup/</guid>
-      <description>Intro I recently set up my personal site using Hugo the static site generator, with deployment to github pages. Most of the proccess was straight-forward and enjoyable. I did run into a few problems when trying to enable support for LaTeX type syntax embedded in my markdown files. I thought I would do a short step-by-step write-up for future reference.
-Most of this setup is available in the Official Hugo Documentation but there are a few pitfalls and theme specific steps that are not included there.</description>
+      <description>&lt;h2 id=&#34;intro&#34;&gt;Intro&lt;/h2&gt;&#xA;&lt;p&gt;I recently set up my personal site using &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; the static site generator, with deployment&#xA;to github pages. Most of the proccess was straight-forward and enjoyable. I did run into a few problems when&#xA;trying to enable support for LaTeX type syntax embedded in my markdown files. I thought I would do a short&#xA;step-by-step write-up for future reference.&lt;/p&gt;&#xA;&lt;p&gt;Most of this setup is available in the &lt;a href=&#34;https://gohugo.io/content-management/mathematics/&#34;&gt;Official Hugo Documentation&lt;/a&gt;&#xA;but there are a few pitfalls and theme specific steps that are not included there.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

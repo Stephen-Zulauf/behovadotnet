@@ -1,7 +1,11 @@
 baseURL: https://behova.net/
 theme: PaperMod
 title: behova.net
-paginate: 5
+
+pagination:
+  disableAliases: false
+  pagerSize: 10
+  path: page
 
 enableRobotsTXT: true
 buildDrafts: false

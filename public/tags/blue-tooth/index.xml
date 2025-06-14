@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blue-Tooth on behova.net</title>
     <link>http://localhost:1313/tags/blue-tooth/</link>
     <description>Recent content in Blue-Tooth on behova.net</description>
-    <image>
-      <title>behova.net</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.131.0</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 14 Jul 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/blue-tooth/index.xml" rel="self" type="application/rss+xml" />
@@ -18,12 +13,7 @@
       <link>http://localhost:1313/notes/arch-bluetooth/</link>
       <pubDate>Sun, 14 Jul 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notes/arch-bluetooth/</guid>
-      <description>Make sure Packages are Installed Bluez and bluez-utils are required for bluetooth ctl.
-Start/Enable Bluetooth Service # systemctl start bluetooth.service Start bluetoothctl # bluetoothctl This will start an interactive prompt.
-# exit to exit
-Enter Scan # scan on to begin looking for devices to pair.
-Pair You can highlight the mac address of the device you want to pair then:
-ctrl+shift+c to copy it to the clipboard. then type</description>
+      <description>&lt;h3 id=&#34;make-sure-packages-are-installed&#34;&gt;Make sure Packages are Installed&lt;/h3&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://archlinux.org/packages/?name=bluez&#34;&gt;Bluez&lt;/a&gt; and &lt;a href=&#34;https://archlinux.org/packages/?name=bluez-utils&#34;&gt;bluez-utils&lt;/a&gt;&#xA;are required for bluetooth ctl.&lt;/p&gt;&#xA;&lt;h3 id=&#34;startenable-bluetooth-service&#34;&gt;Start/Enable Bluetooth Service&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# systemctl start bluetooth.service&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&#34;start-bluetoothctl&#34;&gt;Start bluetoothctl&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# bluetoothctl&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This will start an interactive prompt.&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# exit&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to exit&lt;/p&gt;&#xA;&lt;h3 id=&#34;enter-scan&#34;&gt;Enter Scan&lt;/h3&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# scan on&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to begin looking for devices to pair.&lt;/p&gt;&#xA;&lt;h3 id=&#34;pair&#34;&gt;Pair&lt;/h3&gt;&#xA;&lt;p&gt;You can highlight the mac address of the device you want to pair&#xA;then:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;ctrl+shift+c&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to copy it to the clipboard.&#xA;then type&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;# pair ctrl+shift+v&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to copy in the mac address. once this is successful move onto the next step.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Algebra on behova.net</title>
     <link>http://localhost:1313/tags/algebra/</link>
     <description>Recent content in Algebra on behova.net</description>
-    <image>
-      <title>behova.net</title>
-      <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
-      <link>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
-    </image>
-    <generator>Hugo -- 0.131.0</generator>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 28 Aug 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/algebra/index.xml" rel="self" type="application/rss+xml" />
@@ -18,7 +13,7 @@
       <link>http://localhost:1313/notes/linear-latex/</link>
       <pubDate>Wed, 28 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/notes/linear-latex/</guid>
-      <description>Matrices $$ \begin{matrix} a &amp;b \\ c &amp;d \end{matrix} $$ $$ \begin{matrix} a &amp;amp;b \\ c &amp;amp;d \end{matrix} $$ $$ \begin{pmatrix} a &amp;b \\ c &amp;d \end{pmatrix} $$ $$ \begin{pmatrix} a &amp;amp;b \\ c &amp;amp;d \end{pmatrix} $$ $$ \begin{bmatrix} a &amp;b \\ c &amp;d \end{bmatrix} $$ $$ \begin{bmatrix} a &amp;amp;b \\ c &amp;amp;d \end{bmatrix} $$ $$ \begin{vmatrix} a &amp;b \\ c &amp;d \end{vmatrix} $$ $$ \begin{vmatrix} a &amp;amp;b \\ c &amp;amp;d \end{vmatrix} $$ $$ \begin{Vmatrix} a &amp;b \\ c &amp;d \end{Vmatrix} $$ $$ \begin{Vmatrix} a &amp;amp;b \\ c &amp;amp;d \end{Vmatrix} $$ go back.</description>
+      <description>&lt;h2 id=&#34;matrices&#34;&gt;Matrices&lt;/h2&gt;&#xA;$$&#xA;\begin{matrix}&#xA; a &amp;b \\&#xA; c &amp;d&#xA;\end{matrix}&#xA;$$&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$$&#xA;\begin{matrix}&#xA; a &amp;amp;b \\&#xA; c &amp;amp;d&#xA;\end{matrix}&#xA;$$&#xA;&lt;/code&gt;&lt;/pre&gt;$$&#xA;\begin{pmatrix}&#xA; a &amp;b \\&#xA; c &amp;d&#xA;\end{pmatrix}&#xA;$$&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$$&#xA;\begin{pmatrix}&#xA; a &amp;amp;b \\&#xA; c &amp;amp;d&#xA;\end{pmatrix}&#xA;$$&#xA;&lt;/code&gt;&lt;/pre&gt;$$&#xA;\begin{bmatrix}&#xA; a &amp;b \\&#xA; c &amp;d&#xA;\end{bmatrix}&#xA;$$&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$$&#xA;\begin{bmatrix}&#xA; a &amp;amp;b \\&#xA; c &amp;amp;d&#xA;\end{bmatrix}&#xA;$$&#xA;&lt;/code&gt;&lt;/pre&gt;$$&#xA;\begin{vmatrix}&#xA; a &amp;b \\&#xA; c &amp;d&#xA;\end{vmatrix}&#xA;$$&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$$&#xA;\begin{vmatrix}&#xA; a &amp;amp;b \\&#xA; c &amp;amp;d&#xA;\end{vmatrix}&#xA;$$&#xA;&lt;/code&gt;&lt;/pre&gt;$$&#xA;\begin{Vmatrix}&#xA; a &amp;b \\&#xA; c &amp;d&#xA;\end{Vmatrix}&#xA;$$&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;$$&#xA;\begin{Vmatrix}&#xA; a &amp;amp;b \\&#xA; c &amp;amp;d&#xA;\end{Vmatrix}&#xA;$$&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;a href=&#34;../&#34;&gt;go back&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
